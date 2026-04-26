@@ -1,0 +1,241 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* Card Container */
+.card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Headings */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Buttons */
+.btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Form Inputs */
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.dashboard-title {
+    margin-bottom: 20px;
+}
+
+.dashboard-btn {
+    margin-top: 15px;
+    display: inline-block;
+}
+.page-title {
+    margin-bottom: 20px;
+}
+a.disabled {
+    background-color: #e0e0e0;
+    color: #999;
+    border: 1px solid #ddd;
+    box-shadow: none;
+}
+.action-buttons {
+    display: flex;
+    gap: 10px;   /* buttons ke beech space */
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.btn {
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+.text-danger {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+    display: block;
+}
+.filter-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.filter-form .form-group {
+    flex: 1 1 200px;
+}
+
+/* Table select dropdown */
+.status-dropdown {
+    padding: 5px 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    min-width: 100px;  /* ensure text visible */
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Small button next to dropdown */
+.btn-sm {
+    padding: 4px 8px;
+    font-size: 13px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* Form container flex */
+.status-form {
+    display: flex;
+    align-items: center; /* vertically center in table cell */
+    gap: 8px;            /* space between dropdown and button */
+}
+
+/* Dropdown */
+.status-dropdown {
+    padding: 5px 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    min-width: 100px; 
+}
+
+/* Button */
+.btn-sm {
+    padding: 4px 10px;
+    font-size: 13px;
+    border-radius: 4px;
+}
+
+/* Small buttons for filter form */
+.filter-form .btn-sm {
+    padding: 4px 10px;      /* compact padding */
+    font-size: 13px;        /* small font */
+    border-radius: 4px;
+    min-width: auto;         /* let width auto */
+    display: inline-block;
+    text-align: center;
+}
+/* Compact buttons inside filter form */
+.filter-form .btn,
+.filter-form .btn-sm {
+    display: inline-block;    /* ensures side by side */
+    width: auto !important;   /* override any parent width */
+    min-width: 80px;          /* optional, fixed min width */
+    padding: 5px 12px;
+    font-size: 13px;
+    text-align: center;
+}
+/* Compact buttons inside filter form */
+.filter-form .btn,
+.filter-form .btn-sm {
+    display: inline-block;    /* ensures side by side */
+    width: auto !important;   /* override any parent width */
+    min-width: 80px;          /* optional, fixed min width */
+    padding: 5px 12px;
+    font-size: 13px;
+    text-align: center;
+}

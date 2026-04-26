@@ -1,0 +1,50 @@
+<?php
+use App\Http\Controllers\BusinessRegistrationController;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\AppointmentController;
+
+
+
+
+        // Route::get('/',[BusinessRegistrationController::class,'create']);
+        Route::get('/',[BusinessRegistrationController::class,'landingView']);
+        Route::get('/thank-you/{id}', function ($id) {
+                        return view('business.thank_you', compact('id'));
+                     })->name('thank.you');        
+        
+        Route::get('/register-business',[BusinessRegistrationController::class,'index']);
+
+        Route::post('/register-business',[BusinessRegistrationController::class,'storeStep1'])->name('business.step1');
+
+        Route::get('/step2/{id}', [BusinessRegistrationController::class, 'step2']);
+        Route::post('/step2/{id}', [BusinessRegistrationController::class, 'storeStep2']);
+
+        Route::get('backend/admin/login',[AdminController::class,'login']);
+        Route::post('backend/admin/login',[AdminController::class,'authenticate'])->name('login');
+
+        Route::middleware('auth')->group(function(){
+                Route::get('/admin/dashboard',[AdminController::class,'dashboard']);
+
+                Route::get('/admin/registrations',[AdminController::class,'registrations']);
+                Route::get('/admin/registrations/{registration}', [BusinessRegistrationController::class, 'show'])->name('registrations.show');
+
+                Route::get('/admin/view/{id}',[AdminController::class,'view']);
+
+                Route::get('/admin/download/{file}',[AdminController::class,'download']);
+
+                Route::get('/admin/book-appointment', [AppointmentController::class, 'create']);
+                Route::post('/admin/book-appointment', [AppointmentController::class, 'store']);
+                Route::get('/admin/appointments', [AppointmentController::class, 'index'])->name('appointments.index');
+                Route::get('/admin/appointments/{id}/edit', [AppointmentController::class, 'edit'])->name('appointments.edit');
+
+                Route::post('/admin/appointments/{id}/update', [AppointmentController::class, 'update'])->name('appointments.update');
+
+
+                Route::get('/admin/register-business', [BusinessRegistrationController::class, 'admin_registartion']);
+                Route::post('/admin/register-business', [BusinessRegistrationController::class, 'admin_register_business']);
+                Route::post('/admin/appointments/{id}/delete', [AppointmentController::class, 'destroy'])->name('appointments.delete');
+                Route::get('/admin/appointment/status/{id}', [AppointmentController::class, 'toggleStatus'])->name('appointment.toggleStatus');
+                 Route::post('/admin/logout', [AdminController::class, 'logout'])->name('admin.logout');
+        });
+
+  

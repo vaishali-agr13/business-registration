@@ -1,0 +1,280 @@
+ .file-upload {
+    margin-bottom: 20px;
+}
+
+.upload-box {
+    display: block;
+    border: 2px dashed #a4715f;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    background: #f5e6df;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.upload-box:hover {
+    background: #ecd6cc;
+    border-color: #7a4b3a;
+}
+
+.upload-content .icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.upload-text {
+    color: #5a3e36;
+    font-weight: 500;
+}
+
+.file-name {
+    display: block;
+    margin-top: 8px;
+    font-size: 13px;
+    color: #7a4b3a;
+}
+
+    .form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #5a3e36;
+}
+
+.custom-select-wrapper {
+    position: relative;
+}
+
+.custom-select-wrapper select {
+    width: 100%;
+    padding: 12px 40px 12px 12px;
+    border-radius: 10px;
+    border: 1px solid #c8a99a;
+    background: linear-gradient(145deg, #f5e6df, #e6cfc3);
+    color: #4a2f27;
+    font-size: 14px;
+    appearance: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.custom-select-wrapper select:hover {
+    border-color: #a4715f;
+    background: #f0dbd2;
+}
+
+/* Focus Effect */
+.custom-select-wrapper select:focus {
+    outline: none;
+    border-color: #7a4b3a;
+    box-shadow: 0 0 0 2px rgba(122, 75, 58, 0.2);
+}
+
+/* Custom Arrow */
+.custom-select-wrapper::after {
+    content: "▼";
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    color: #6b4a3f;
+    pointer-events: none;
+}
+
+.section-title {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #5a3e36;
+}
+
+.fee-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Card */
+.fee-card {
+    border: 2px solid #d7ccc8;
+    border-radius: 12px;
+    padding: 12px;
+    cursor: pointer;
+    background: #f5e6df;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+/* Hide radio */
+.fee-card input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Content */
+.fee-content h4 {
+    margin: 0;
+    color: #5a3e36;
+    font-size: 15px;
+}
+
+.fee-content p {
+    margin: 5px 0 0;
+    font-weight: bold;
+    color: #7a4b3a;
+}
+
+/* Hover */
+.fee-card:hover {
+    border-color: #a4715f;
+    background: #ecd6cc;
+}
+
+/* Selected */
+.fee-card input:checked + .fee-content {
+    background: #f5e6df; /* light pink */
+    border: 2px solid #7a4b3a;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.fee-card input:checked + .fee-content {
+    color: #5a3e36;
+    font-weight: bold;
+}
+
+.fee-card input:checked + .fee-content h4,
+.fee-card input:checked + .fee-content p {
+    color: #fff;
+}
+.home-btn {
+    padding: 10px 25px !important;
+}
+
+
+
+.home-btn:hover {
+    background: #FF9B45 !important;
+}
+
+.qr-payment-box {
+    border: 2px dashed #a4715f;
+    background: #f5e6df;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.qr-payment-box h5 {
+    color: #6b3e2e;
+    font-weight: 600;
+}
+
+.qr-img {
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #d2a58f;
+    padding: 5px;
+    background: #fff;
+}
+
+.small-text {
+    color: #7a5a4d;
+    font-size: 14px;
+}
+
+.progress-bar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.progress-step {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #d7ccc8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    position: relative;
+}
+
+.progress-step.active {
+    background: #6d4c41;
+    color: #fff;
+}
+.custom-input {
+    border-radius: 10px;
+    border: 1px solid #c8a99a;
+    padding: 12px;
+    background: #f5e6df !important; /* ✅ pink background */
+    transition: 0.3s;
+}
+
+/* focus pe bhi pink hi rahe */
+.custom-input:focus {
+    background: #ecd6cc !important;
+    border-color: #7a4b3a;
+    box-shadow: none !important;
+    outline: none;
+}
+
+.section-heading {
+    font-weight: 600;
+    color: #6d4c41;
+}
+
+.custom-input::placeholder {
+    color: #7a4b3a;
+}
+
+@media (max-width: 768px) {
+    .form-wrapper {
+        margin-top: 80px;
+    }
+
+}
+
+/* All input fields rounded */
+input,
+select,
+textarea,
+.form-control {
+    border-radius: 20px !important;
+}
+
+/* File upload box bhi thoda smooth */
+.upload-box {
+    border-radius: 12px !important;
+}
+
+/* Fee card already rounded hai, fir bhi ensure */
+.fee-card {
+    border-radius: 12px !important;
+}
+
+.custom-check {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.custom-check input {
+    margin-top: 4px;
+}
+
+.custom-check span {
+    display: block;
+    line-height: 1.4;
+}

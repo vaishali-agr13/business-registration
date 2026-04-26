@@ -1,0 +1,188 @@
+body{
+background:#e8d8cc;
+font-family:Arial;
+}
+
+
+
+.btn-danger{
+background:#6b1d06;
+border:none;
+padding:6px 18px;
+border-radius:20px;
+}
+
+/* .btn-danger:hover{
+background:#8b2c0c;
+} */
+
+.sidebar{
+height:100vh;
+background:#353b48;
+padding-top:20px;
+}
+
+.sidebar a{
+display:block;
+color:white;
+padding:12px;
+text-decoration:none;
+}
+
+.sidebar a:hover{
+background:#40739e;
+}
+
+.card{
+border-radius:10px;
+padding:20px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.next-btn,
+.submit-btn{
+background:#6b1d06;
+color:white;
+border:none;
+padding:10px 25px;
+border-radius:25px;
+}
+
+.next-btn:hover {
+    opacity: 1 !important;
+    background:#6b1d06 !important;
+color:white !important;
+}
+
+.back-btn:hover {
+ opacity: 1 !important;
+    background:#6b1d06 !important;
+color:white !important;
+}
+
+.submit-btn {
+  background:#6b1d06 !important;
+color:white !important;
+}
+
+.back-btn{
+background:#ccc;
+border:none;
+padding:10px 25px;
+border-radius:25px;
+}
+
+.form-control:focus{
+box-shadow:none;
+border-bottom:2px solid #6b1d06;
+}
+
+.step{
+display:none;
+}
+
+.step.active{
+display:block;
+}
+
+.card-header {
+    background-color: transparent !important;
+}
+
+.top-header{
+border-top:4px solid #ff8c00;
+background:white;
+padding:15px 0;
+}
+
+.site-title{
+font-weight:bold;
+margin:0;
+}
+
+.site-title a{
+text-decoration:none;
+color:#6b1d06;
+font-size:22px;
+font-weight:700;
+}
+
+.login-title{
+color:#6b1d06;
+font-weight:700;
+text-align:center;
+margin-bottom:20px;
+}
+
+.logout-btn{
+background:#6b1d06;
+color:white;
+padding:8px 18px;
+border-radius:20px;
+text-decoration:none;
+}
+
+/* TABLE DESIGN */
+
+.custom-table{
+background:white;
+border-radius:10px;
+overflow:hidden;
+}
+
+.custom-table thead{
+background:#6b1d06;
+color:white;
+}
+
+.custom-table th{
+padding:12px;
+font-weight:600;
+border:none;
+}
+
+.custom-table td{
+padding:12px;
+vertical-align:middle;
+}
+
+/* VIEW BUTTON */
+
+.view-btn{
+background:#6b1d06;
+color:white;
+padding:6px 18px;
+border-radius:20px;
+text-decoration:none;
+font-size:14px;
+}
+
+/* .view-btn:hover{
+background:#8b2c0c;
+color:white;
+} */
+.header-logout{
+  display: flex;
+justify-content: flex-end;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #9d7e76 !important;
+    opacity: 1;
+}
+
+.upload-box {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.upload-box:hover {
+    border-color: #0d6efd;
+    background-color: #f8f9fa;
+}
+
+
