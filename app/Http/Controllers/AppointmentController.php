@@ -32,6 +32,67 @@ class AppointmentController extends Controller
             return view('appointments.form', compact('slots'));
         }
 
+
+        public function createByUser()
+        {
+            $slots = [
+                '10:00 AM',
+                '11:00 AM',
+                '12:00 PM',
+                '02:00 PM',
+                '03:00 PM',
+                '04:00 PM',
+            ];
+
+            return view('appointments.create-by-user', compact('slots'));
+        }
+
+
+        
+
+
+
+           public function storeByUser(Request $request)
+            {
+                $request->validate([
+                    'name' => 'required',
+                    'email' => 'required|email',
+                    'appointment_date' => 'required|date',
+                    'phone'=>'required',
+                    'time_slot' => 'required'
+                ]);
+
+                $time = date("H:i:s", strtotime($request->time_slot));
+
+
+                // Double booking check
+                $exists = Appointment::where('appointment_date', $request->appointment_date)
+                    ->where('time_slot', $time)
+                    ->exists();
+
+                if ($exists) {
+                    return back()->with('error', 'This slot is already booked!');
+                }
+
+
+                $appointment = Appointment::create([
+                        'name' => $request->name,
+                        'user_id'=>Auth::id(),
+                        'email' => $request->email,
+                        'phone' => $request->phone,
+                        'appointment_date' => $request->appointment_date,
+                        'time_slot' => $time, // ✅ converted
+                        'service' => $request->service,
+                        'message' => $request->message,
+                        'created_by'=>'user',
+                ]);
+
+                    Mail::to($request->email)->send(new AppointmentBooked($appointment));
+
+                return back()->with('success', 'Appointment Booked Successfully');
+            }
+
+
         public function store(Request $request)
             {
                 $request->validate([

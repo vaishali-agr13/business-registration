@@ -23,7 +23,7 @@
      
 
 
-      <a href="register-business" class="btn btn-primary mt-3 d-block mx-auto" style="width: fit-content;padding-left: 58px;">
+      <a href="/book-appointment" class="btn btn-primary mt-3 d-block mx-auto" style="width: fit-content;padding-left: 58px;">
      Book Appointment 
 </a>
 

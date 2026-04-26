@@ -19,6 +19,10 @@ use App\Http\Controllers\AppointmentController;
         Route::get('/step2/{id}', [BusinessRegistrationController::class, 'step2']);
         Route::post('/step2/{id}', [BusinessRegistrationController::class, 'storeStep2']);
 
+        Route::get('/book-appointment', [AppointmentController::class, 'createByUser']);
+        Route::post('/book-appointment', [AppointmentController::class, 'storeByUser'])->name('book-appointment');
+
+
         Route::get('backend/admin/login',[AdminController::class,'login']);
         Route::post('backend/admin/login',[AdminController::class,'authenticate'])->name('login');
 
