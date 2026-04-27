@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\BusinessRegistration;
+use App\Models\Appointment;
 use App\Models\User;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Session;
@@ -59,9 +60,22 @@ class AdminController extends Controller
 
     public function dashboard()
     {
-        $total = BusinessRegistration::count();
+        
+            $totalBusiness = BusinessRegistration::count();
 
-        return view('admin.dashboard',compact('total'));
+            $totalAppointments = Appointment::count();
+
+            $totalClosedAppointments = Appointment::where('status', 'closed')->count();
+
+            $totalOpenAppointments = Appointment::where('status', 'open')->count();
+
+            return view('admin.dashboard', compact(
+                'totalBusiness',
+                'totalAppointments',
+                'totalClosedAppointments',
+                'totalOpenAppointments'
+            ));
+
     }
 
     public function registrations()
