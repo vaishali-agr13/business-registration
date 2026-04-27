@@ -18,7 +18,17 @@
 
     <h4 class="text-center mb-4"> Appointment Booking</h4>
 
+@if(session('success'))
+    <div id="successMsg" style="color:#155724; background:#d4edda; border:1px solid #c3e6cb; padding:12px; border-radius:6px; font-weight:500;">
+        {{ session('success') }}
+    </div>
 
+    <script>
+        setTimeout(() => {
+            document.getElementById('successMsg').style.display = 'none';
+        }, 3000);
+    </script>
+@endif
 
 @if($errors->any())
     <div class="alert alert-danger" style="background:#fff2f2; border-left:5px solid red; padding:10px; margin-bottom:10px;">
@@ -54,7 +64,7 @@
 </div>
 <div class="mb-3">
 <label>Phone</label>
-<input type="number" name="phone" placeholder="   Enter Your Name" value="{{ $step1['name'] ?? '' }}" required class="form-control custom-input">
+<input type="number" name="phone" placeholder="   Enter Your Phone" value="{{ $step1['name'] ?? '' }}" required class="form-control custom-input">
 </div>
 
 
@@ -64,20 +74,29 @@
 </div>
 
 
+<div class="form-group mb-3">
+    <label for="business_type">Time Slot</label>
+    <div class="custom-select-wrapper">
+        <select id="business_type" required name="time_slot">
+            <option value="">Select Time Slot</option>
+            @foreach($slots as $slot)
+                <option>{{ $slot }}</option>
+            @endforeach
+        </select>
+    </div>
+</div>
+
+
 
 <div class="mb-3">
-<label>Time Slot</label>
-<input type="text" name="time_slot" placeholder="   Enter Your Name" value="{{ $step1['name'] ?? '' }}" required class="form-control custom-input">
-</div>
-<div class="mb-3">
 <label>Service</label>
-<input type="text" name="service" placeholder="   Enter Your Name" value="{{ $step1['name'] ?? '' }}" required class="form-control custom-input">
+<input type="text" name="service" placeholder="   Enter Service "  required class="form-control custom-input">
 </div>
 
 
 <div class="mb-3">
 <label>message</label>
-<input type="text" name="message" required placeholder="   Enter Your Mobile Number" value="{{ $step1['personal_phone'] ?? '' }}" class="form-control custom-input">
+<input type="text" name="message" required placeholder="   Enter Your Message" value="{{ $step1['personal_phone'] ?? '' }}" class="form-control custom-input">
 </div>
 
 
