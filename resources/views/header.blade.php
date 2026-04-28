@@ -199,7 +199,7 @@
                         >Sign In</a
                       >
                       <a
-                        href="/"
+                        href="/register-business"
                         class="btn btn-dark text-white fs-6 bg-dark px-3 py-2 w-50 hstack justify-content-center"
                         >Register</a
                       >
