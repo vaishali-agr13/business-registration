@@ -45,68 +45,65 @@
 
 
 
-<form method="POST" action="{{route('book-appointment')}}" novalidate>
-
+<form method="POST" action="{{route('book-appointment')}}">
 @csrf
-
-
 
 <h5 class="mb-3 section-heading">👤 Basic Information</h5>
 
-<div class="mb-3">
-<label>Your Name</label>
-<input type="text" name="name" placeholder="   Enter Your Name" value="{{ $step1['name'] ?? '' }}" required class="form-control custom-input">
-</div>
+<div class="row">
 
-<div class="mb-3">
-<label>Email</label>
-<input type="email" name="email" placeholder="   Enter Your Email ID" value="{{ $step1['email'] ?? '' }}" required class="form-control custom-input">
-</div>
-<div class="mb-3">
-<label>Phone</label>
-<input type="number" name="phone" placeholder="   Enter Your Phone" value="{{ $step1['name'] ?? '' }}" required class="form-control custom-input">
-</div>
-
-
-<div class="mb-3">
-    <label>Appointment Date</label>
-    <input type="date" name="appointment_date" id="appointment_date" class="form-control custom-input">
-</div>
-
-
-<div class="form-group mb-3">
-    <label for="business_type">Time Slot</label>
-    <div class="custom-select-wrapper">
-        <select id="business_type" required name="time_slot">
-            <option value="">Select Time Slot</option>
-            @foreach($slots as $slot)
-                <option>{{ $slot }}</option>
-            @endforeach
-        </select>
+    <div class="col-md-6 mb-3">
+        <label>Your Name</label>
+        <input type="text" name="name" placeholder="  Enter Your Name"
+        value="{{ $step1['name'] ?? '' }}" required class="form-control custom-input">
     </div>
+
+    <div class="col-md-6 mb-3">
+        <label>Email</label>
+        <input type="email" name="email" placeholder="  Enter Your Email ID"
+        value="{{ $step1['email'] ?? '' }}" required class="form-control custom-input">
+    </div>
+
+    <div class="col-md-6 mb-3">
+        <label>Phone</label>
+        <input type="number" name="phone" placeholder="  Enter Your Phone"
+        value="{{ $step1['phone'] ?? '' }}" required class="form-control custom-input">
+    </div>
+
+    <div class="col-md-6 mb-3">
+        <label>Appointment Date</label>
+        <input type="date" name="appointment_date" id="appointment_date"
+        class="form-control custom-input" required>
+    </div>
+
+    <div class="col-md-6 mb-3">
+        <label>Time Slot</label>
+        <div class="custom-select-wrapper">
+            <select required name="time_slot">
+                <option value="">Select Time Slot</option>
+                @foreach($slots as $slot)
+                    <option>{{ $slot }}</option>
+                @endforeach
+            </select>
+        </div>
+    </div>
+
+    <div class="col-md-6 mb-3">
+        <label>Service</label>
+        <input type="text" name="service" placeholder="  Enter Service"
+        required class="form-control custom-input" required>
+    </div>
+
+    <div class="col-md-12 mb-3">
+        <label>Message</label>
+        <input type="text" name="message" placeholder="  Enter Your Message"
+        class="form-control custom-input" required>
+    </div>
+
 </div>
-
-
-
-<div class="mb-3">
-<label>Service</label>
-<input type="text" name="service" placeholder="   Enter Service "  required class="form-control custom-input">
-</div>
-
-
-<div class="mb-3">
-<label>message</label>
-<input type="text" name="message" required placeholder="   Enter Your Message" value="{{ $step1['personal_phone'] ?? '' }}" class="form-control custom-input">
-</div>
-
-
-
 
 <a href="/" class="btn home-btn">Home</a>
-
 <button type="submit" class="btn next-btn">Submit</button>
-
-</div>
 
 </form>
 

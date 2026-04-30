@@ -31,8 +31,10 @@
                                 <th>#</th>
                                 <th>Name</th>
                                 <th>Email</th>
-                                <th>Date</th>
+                                <th>Phone</th>
+                                <th>Appointment Date</th>
                                 <th>Time</th>
+                                <th>Message</th>
                                 <th>Service</th>
                                 <th>Status</th>
                                 <th>Action</th>
@@ -46,13 +48,14 @@
                                         <td>{{ $key + 1 }}</td>
                                         <td>{{ $a->name }}</td>
                                         <td>{{ $a->email }}</td>
+                                        <td>{{ $a->phone }}</td>
                                         <td>{{ $a->appointment_date }}</td>
 
                                         <td>
                                             {{ \Carbon\Carbon::parse($a->time_slot)->format('h:i A') }}
                                         </td>
-
-                                        <td>{{ $a->service }}</td>
+                                        <td>{{ \Illuminate\Support\Str::limit( $a->message , 10, '...') }}</td>
+                                        <td>{{ \Illuminate\Support\Str::limit( $a->service , 10, '...') }}</td>
 
                                         <td>
                                             <!-- Status Badge -->

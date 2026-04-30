@@ -18,6 +18,11 @@
     border-color: #7a4b3a;
 }
 
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .upload-content .icon {
     font-size: 30px;
     margin-bottom: 10px;

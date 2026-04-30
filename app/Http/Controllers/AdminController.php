@@ -78,10 +78,39 @@ class AdminController extends Controller
 
     }
 
-    public function registrations()
+    public function registrations(Request $request)
     {
-        $data = BusinessRegistration::all();
-        return view('admin.registrations_list',compact('data'));
+        $query = BusinessRegistration::query();
+
+            // Business Name
+            if ($request->name) {
+                $query->where('name', 'like', '%' . $request->name . '%');
+            }
+
+            // Email
+            if ($request->email) {
+                $query->where('email', 'like', '%' . $request->email . '%');
+            }
+
+            // Phone (both fields check)
+            if ($request->phone) {
+                $query->where(function ($q) use ($request) {
+                    $q->where('business_phone', 'like', '%' . $request->phone . '%')
+                    ->orWhere('personal_phone', 'like', '%' . $request->phone . '%');
+                });
+            }
+
+            // Date Filter
+            if ($request->from_date && $request->to_date) {
+                $query->whereBetween('created_at', [
+                    $request->from_date,
+                    $request->to_date
+                ]);
+            }
+
+            $data = $query->latest()->get();
+
+            return view('admin.registrations_list',compact('data'));
     }
 
     public function view($id)

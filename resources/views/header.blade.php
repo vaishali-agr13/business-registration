@@ -167,7 +167,7 @@
                       </li>
                       <li class="header-item">
                         <a
-                          href="index.html"
+                          href="/book-appointment"
                           class="header-link hstack gap-2 fs-7 fw-bold text-dark"
                           ><img
                             src="{{asset('assets/images/svgs/secondary-leaf.svg')}}"
@@ -188,12 +188,12 @@
                             width="20"
                             height="20"
                             class="img-fluid animate-spin"
-                          />Register Now</a
+                          />Business Registration</a
                         >
                       </li>
                     </ul>
                     <div class="hstack gap-3">
-                      <a
+                      <!-- <a
                         href="/backend/admin/login"
                         class="btn btn-outline-light fs-6 bg-white px-3 py-2 text-dark w-50 hstack justify-content-center"
                         >Sign In</a
@@ -202,7 +202,7 @@
                         href="/register-business"
                         class="btn btn-dark text-white fs-6 bg-dark px-3 py-2 w-50 hstack justify-content-center"
                         >Register</a
-                      >
+                      > -->
                     </div>
                   </div>
                   <div>

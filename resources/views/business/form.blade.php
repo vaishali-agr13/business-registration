@@ -50,7 +50,7 @@
 
 
 
-<form method="POST" action="{{route('business.step1')}}" novalidate>
+<form method="POST" action="{{route('business.step1')}}">
 
 @csrf
 
@@ -192,7 +192,7 @@
 
 <div class="form-check">
     <label class="custom-check">
-        <input type="checkbox" name="services_required[]" value="Social Media Marketing (Facebook, Instagram)">
+        <input type="checkbox" name="services_required[]"  value="Social Media Marketing (Facebook, Instagram)">
         <span>Social Media Marketing (Facebook, Instagram)</span>
     </label>
 </div>
