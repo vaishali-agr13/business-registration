@@ -274,17 +274,17 @@
     <div class="fee-options">
         
         <label class="fee-card">
-            <input type="radio" required name="registration_fees" value="2100" >
+            <input type="radio" required name="registration_fees" value="99" >
             <div class="fee-content">
-                ₹2100
+                ₹99
             </div>
 
            
         </label>
         <label class="fee-card">
-         <input type="radio" required name="registration_fees" value="4100" >
+         <input type="radio" required name="registration_fees" value="2100" >
             <div class="fee-content">
-                ₹4100
+                ₹2100
             </div>
        </label>
 
