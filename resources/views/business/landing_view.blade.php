@@ -132,9 +132,7 @@
                         High quality web design solutions you can trust.
                       </h2>
                       <p class="fs-5 mb-0">
-                        When selecting a web design agency, it's essential to
-                        consider its reputation, experience, and the specific
-                        needs of your project.
+                        We create high-quality, responsive websites that combine stunning design with seamless functionality. Our web design solutions are tailored to your business goals, helping you build a strong online presence and deliver an exceptional user experience.
                       </p>
                     </div>
                   </div>
@@ -248,9 +246,7 @@
                     >
                       <h2 class="mb-0">Featured projects</h2>
                       <p class="fs-5 mb-0">
-                        A glimpse into our creativity—exploring innovative
-                        designs, successful collaborations, and transformative
-                        digital experiences.
+                        Explore our featured projects that showcase creativity, innovation, and measurable results. Each project reflects our commitment to delivering high-quality digital solutions tailored to our clients' unique business needs.
                       </p>
                     </div>
                   </div>
@@ -281,7 +277,7 @@
                     </div>
                   </div>
                   <div class="portfolio-details d-flex flex-column gap-3">
-                    <h3 class="mb-0">Snapclear</h3>
+                    <h3 class="mb-0">E-Commerce Growth Campaign</h3>
                     <div class="hstack gap-2">
                       <span class="badge text-dark border">UX Strategy</span>
                       <span class="badge text-dark border">UI Design</span>
@@ -310,7 +306,7 @@
                     </div>
                   </div>
                   <div class="portfolio-details d-flex flex-column gap-3">
-                    <h3 class="mb-0">Amber Bottle</h3>
+                    <h3 class="mb-0">Local Business SEO Optimization</h3>
                     <div class="hstack gap-2">
                       <span class="badge text-dark border"
                         >Web development</span
@@ -341,7 +337,7 @@
                     </div>
                   </div>
                   <div class="portfolio-details d-flex flex-column gap-3">
-                    <h3 class="mb-0">Pixelforge</h3>
+                    <h3 class="mb-0">Social Media Brand Awareness</h3>
                     <div class="hstack gap-2">
                       <span class="badge text-dark border">UI/UX design</span>
                       <span class="badge text-dark border"
@@ -372,7 +368,7 @@
                     </div>
                   </div>
                   <div class="portfolio-details d-flex flex-column gap-3">
-                    <h3 class="mb-0">BioTrack LIMS</h3>
+                    <h3 class="mb-0">Google Ads Lead Generation</h3>
                     <div class="hstack gap-2">
                       <span class="badge text-dark border">Brand identity</span>
                       <span class="badge text-dark border">Digital design</span>
@@ -401,7 +397,7 @@
                     </div>
                   </div>
                   <div class="portfolio-details d-flex flex-column gap-3">
-                    <h3 class="mb-0">Amber Bottle</h3>
+                    <h3 class="mb-0">Real Estate Digital Marketing</h3>
                     <div class="hstack gap-2">
                       <span class="badge text-dark border">Photography</span>
                       <span class="badge text-dark border">Studio</span>
@@ -430,7 +426,7 @@
                     </div>
                   </div>
                   <div class="portfolio-details d-flex flex-column gap-3">
-                    <h3 class="mb-0">Digital Magazine</h3>
+                    <h3 class="mb-0">Healthcare Marketing Strategy</h3>
                     <div class="hstack gap-2">
                       <span class="badge text-dark border">Digital design</span>
                       <span class="badge text-dark border"
@@ -476,9 +472,7 @@
                     >
                       <h2 class="mb-0 text-white">What we do</h2>
                       <p class="fs-5 mb-0 text-white text-opacity-70">
-                        A glimpse into our creativity—exploring innovative
-                        designs, successful collaborations, and transformative
-                        digital experiences.
+                        We provide result-driven digital marketing solutions to help businesses grow online, attract qualified leads, and increase conversions. From website design and SEO to social media marketing and paid advertising, our services are tailored to deliver measurable success and long-term growth..
                       </p>
                     </div>
                   </div>
@@ -579,9 +573,7 @@
                           </div>
                           <div class="col-lg-6 col-xxl-7">
                             <p class="text-white text-opacity-70 mb-0">
-                              When selecting a web design agency, it's essential
-                              to consider its reputation, experience, and the
-                              specific needs of your project.
+                             Build a strong and memorable brand identity that sets your business apart from the competition. We create cohesive branding elements that reflect your values, connect with your audience, and strengthen brand recognition.
                             </p>
                           </div>
                         </div>
@@ -607,9 +599,7 @@
                           </div>
                           <div class="col-lg-6 col-xxl-7">
                             <p class="text-white text-opacity-70 mb-0">
-                              When selecting a web design agency, it's essential
-                              to consider its reputation, experience, and the
-                              specific needs of your project.
+                              We build fast, responsive, and user-friendly websites tailored to your business goals, ensuring a seamless experience across all devices.
                             </p>
                           </div>
                         </div>
@@ -635,9 +625,7 @@
                           </div>
                           <div class="col-lg-6 col-xxl-7">
                             <p class="text-white text-opacity-70 mb-0">
-                              When selecting a web design agency, it's essential
-                              to consider its reputation, experience, and the
-                              specific needs of your project.
+                              We create engaging, high-quality content that captures attention, builds trust, and helps your brand connect with the right audience..
                             </p>
                           </div>
                         </div>
@@ -663,9 +651,7 @@
                           </div>
                           <div class="col-lg-6 col-xxl-7">
                             <p class="text-white text-opacity-70 mb-0">
-                              When selecting a web design agency, it's essential
-                              to consider its reputation, experience, and the
-                              specific needs of your project.
+                              Bring your ideas to life with stunning motion graphics and 3D models that enhance visual storytelling, boost engagement, and leave a lasting impression.
                             </p>
                           </div>
                         </div>
@@ -725,9 +711,7 @@
                   data-aos-delay="300"
                   data-aos-duration="1000"
                 >
-                  We blend creativity with strategy to craft unique digital
-                  experiences that make an impact. With a focus on innovation,
-                  attention to details.
+                  We deliver customized digital marketing solutions that help businesses grow, generate leads, and build a strong online presence. Our focus on quality, innovation, and measurable results sets us apart.
                 </p>
               </div>
             </div>
@@ -969,9 +953,7 @@
                     >
                       <h2 class="mb-0">Stories from clients</h2>
                       <p class="fs-5 mb-0 text-opacity-70">
-                        Real experiences, genuine feedback—discover how our
-                        creative solutions have transformed brands and elevated
-                        businesses.
+                        Hear from our satisfied clients who have achieved growth, increased visibility, and real business results through our digital marketing solutions.
                       </p>
                     </div>
                   </div>
@@ -1173,9 +1155,7 @@
                     >
                       <h2 class="mb-0">Meet our team</h2>
                       <p class="fs-5 mb-0 text-opacity-70">
-                        Our team is committed to redefining digital experiences
-                        through innovative web solutions while fostering a
-                        diverse and collaborative environment.
+                        Meet the creative minds and digital experts dedicated to delivering innovative strategies and exceptional results for your business growth
                       </p>
                     </div>
                   </div>
@@ -1233,7 +1213,7 @@
                     </div>
                   </div>
                   <div class="meet-team-details">
-                    <h4 class="mb-0">Martha Finley</h4>
+                    <h4 class="mb-0">Aarav Sharma</h4>
                     <p class="mb-0">Creative Director</p>
                   </div>
                 </div>
@@ -1288,7 +1268,7 @@
                     </div>
                   </div>
                   <div class="meet-team-details">
-                    <h4 class="mb-0">Floyd Miles</h4>
+                    <h4 class="mb-0">Kiran Gupta</h4>
                     <p class="mb-0">Marketing Strategist</p>
                   </div>
                 </div>
@@ -1343,7 +1323,7 @@
                     </div>
                   </div>
                   <div class="meet-team-details">
-                    <h4 class="mb-0">Glenna Snyder</h4>
+                    <h4 class="mb-0">Karan Patel</h4>
                     <p class="mb-0">Lead Designer</p>
                   </div>
                 </div>
@@ -1398,7 +1378,7 @@
                     </div>
                   </div>
                   <div class="meet-team-details">
-                    <h4 class="mb-0">Albert Flores</h4>
+                    <h4 class="mb-0">Ananya Singh</h4>
                     <p class="mb-0">UX/UI Developer</p>
                   </div>
                 </div>
@@ -1442,9 +1422,7 @@
                           Affordable pricing of Web Development
                         </h2>
                         <p class="fs-5 mb-0 text-opacity-70">
-                          A glimpse into our creativity—exploring innovative
-                          designs, successful collaborations, and transformative
-                          digital experiences.
+                          Get professional, high-quality web development services at competitive prices, tailored to fit your business needs and budget..
                         </p>
                       </div>
                     </div>
@@ -1996,9 +1974,7 @@
                           Affordable pricing of Digital Marketing
                         </h2>
                         <p class="fs-5 mb-0 text-opacity-70">
-                          A glimpse into our creativity—exploring innovative
-                          designs, successful collaborations, and transformative
-                          digital experiences.
+                          Grow your business with cost-effective digital marketing solutions designed to increase visibility, generate leads, and maximize your return on investment.
                         </p>
                       </div>
                     </div>
@@ -2497,9 +2473,7 @@
                                 Affordable pricing of Android Development
                               </h2>
                               <p class="fs-5 mb-0 text-opacity-70">
-                                A glimpse into our creativity—exploring
-                                innovative designs, successful collaborations,
-                                and transformative digital experiences.
+                                Get high-performance Android app development services at affordable rates, tailored to deliver seamless user experiences and business growth
                               </p>
                             </div>
                           </div>
@@ -3305,9 +3279,7 @@
                     >
                       <h2 class="mb-0">Recent news</h2>
                       <p class="fs-5 mb-0 text-opacity-70">
-                        Explore the latest trends, bold projects, and creative
-                        insights from our agency—shaping the future of branding,
-                        digital experiences, and storytelling.
+                        Stay updated with the latest digital marketing trends, industry insights, and innovative strategies to help your business stay ahead of the competition.
                       </p>
                     </div>
                   </div>

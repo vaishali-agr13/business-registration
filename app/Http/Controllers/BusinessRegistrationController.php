@@ -124,11 +124,7 @@ class BusinessRegistrationController extends Controller
                 ]);
                
                
-                $data = BusinessRegistration::findOrFail($id);
-
-                
-
-
+                $data = BusinessRegistration::find($id);
 
                 if($request->services_required){
 
