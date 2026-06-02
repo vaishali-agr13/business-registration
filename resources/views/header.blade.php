@@ -75,7 +75,7 @@
                     >
                       <li class="header-item">
                         <a
-                          href="index.html"
+                          href="/"
                           aria-current="true"
                           class="header-link active hstack gap-2 fs-7 fw-bold text-dark"
                           ><img
@@ -89,7 +89,7 @@
                       </li>
                       <li class="header-item">
                         <a
-                          href="about-us.html"
+                          href="/about-us"
                           class="header-link hstack gap-2 fs-7 fw-bold text-dark"
                           ><img
                             src="{{asset('assets/images/svgs/secondary-leaf.svg')}}"
@@ -102,7 +102,7 @@
                       </li>
                       <li class="header-item">
                         <a
-                          href="projects.html"
+                          href="/projects"
                           class="header-link hstack gap-2 fs-7 fw-bold text-dark"
                           ><img
                             src="{{asset('assets/images/svgs/secondary-leaf.svg')}}"
@@ -115,7 +115,7 @@
                       </li>
                       <li class="header-item">
                         <a
-                          href="blog.html"
+                          href="/blog"
                           class="header-link hstack gap-2 fs-7 fw-bold text-dark"
                           ><img
                             src="{{asset('assets/images/svgs/secondary-leaf.svg')}}"
@@ -141,7 +141,7 @@
                       </li>
                       <li class="header-item">
                         <a
-                          href="contact.html"
+                          href="/contact"
                           class="header-link hstack gap-2 fs-7 fw-bold text-dark"
                           ><img
                             src="{{asset('assets/images/svgs/secondary-leaf.svg')}}"

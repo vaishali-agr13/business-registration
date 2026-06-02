@@ -12,6 +12,18 @@ use App\Http\Controllers\AppointmentController;
                         return view('business.thank_you', compact('id'));
                      })->name('thank.you');        
         
+        Route::get('/about-us', function () {
+                        return view('about_us');
+                     });  
+        Route::get('/blog', function () {
+                        return view('blog');
+                     });  
+        Route::get('/projects', function () {
+                        return view('projects');
+                     });  
+        Route::get('/contact', function () {
+                        return view('contact');
+                     }); 
         Route::get('/register-business',[BusinessRegistrationController::class,'index']);
 
         Route::post('/register-business',[BusinessRegistrationController::class,'storeStep1'])->name('business.step1');
