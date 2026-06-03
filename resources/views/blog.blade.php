@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Studiova</title>
-  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.svg" />
+  <title>VIP Digital Hub</title>
+  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/viphublogo.png" />
   <link rel="stylesheet" href="../assets/libs/owl.carousel/dist/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="../assets/libs/aos-master/dist/aos.css">
   <link rel="stylesheet" href="../assets/css/styles.css" />
@@ -18,10 +18,10 @@
     <div class="container">
       <div class="header-wrapper d-flex align-items-center justify-content-between">
         <div class="logo">
-          <a href="index.html" class="logo-white">
+          <a href="/" class="logo-white">
             <img src="../assets/images/logos/logo-white.svg" alt="logo" class="img-fluid">
           </a>
-          <a href="index.html" class="logo-dark">
+          <a href="/" class="logo-dark">
             <img src="../assets/images/logos/logo-dark.svg" alt="logo" class="img-fluid">
           </a>
         </div>
@@ -77,19 +77,47 @@
                           src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
                           class="img-fluid animate-spin">Docs</a>
                     </li>
+
+                    
+                    <li class="header-item">
+                        <a
+                          href="/book-appointment"
+                          class="header-link hstack gap-2 fs-7 fw-bold text-dark"
+                          ><img
+                            src="{{asset('assets/images/svgs/secondary-leaf.svg')}}"
+                            alt=""
+                            width="20"
+                            height="20"
+                            class="img-fluid animate-spin"
+                          />Appointment Booking</a
+                        >
+                      </li>
+                      <li class="header-item">
+                        <a
+                          href="/register-business"
+                          class="header-link hstack gap-2 fs-7 fw-bold text-dark"
+                          ><img
+                            src="{{asset('assets/images/svgs/secondary-leaf.svg')}}"
+                            alt=""
+                            width="20"
+                            height="20"
+                            class="img-fluid animate-spin"
+                          />Business Registration</a
+                        >
+                      </li>
                   </ul>
                   <div class="hstack gap-3">
-                    <a href="sign-in.html"
+                    <!-- <a href="sign-in.html"
                       class="btn btn-outline-light fs-6 bg-white px-3 py-2 text-dark w-50 hstack justify-content-center">Sign
                       In</a>
                     <a href="sign-up.html"
                       class="btn btn-dark text-white fs-6 bg-dark px-3 py-2 w-50 hstack justify-content-center">Sign
-                      Up</a>
+                      Up</a> -->
                   </div>
                 </div>
                 <div>
-                  <a class="text-dark" href="tel:+1-212-456-7890">+1-212-456-7890</a>
-                  <a class="fs-8 text-dark fw-bold" href="mailto:info@wrappixel.com">info@wrappixel.com</a>
+                  <a class="text-dark" href="tel:+91-7000153244">+91 7000153244</a>
+                  <a class="fs-8 text-dark fw-bold" href="mailto:vipdigitalhub@gmail.com">vipdigitalhub@gmail.com</a>
                 </div>
               </div>
             </ul>
@@ -191,20 +219,22 @@
   </div>
 
   <footer class="footer bg-dark py-5 py-lg-11 py-xl-12">
+
     <div class="container">
       <div class="row">
         <div class="col-xl-5 mb-8 mb-xl-0">
+
           <div class="d-flex flex-column gap-8 pe-xl-5">
             <h2 class="mb-0 text-white">Build something together?</h2>
             <div class="d-flex flex-column gap-2">
-              <a href="https://www.wrappixel.com/" target="_blank" class="link-hover hstack gap-3 text-white fs-5">
+              <a href="https://vipdigitalhub.com" target="_blank" class="link-hover hstack gap-3 text-white fs-5">
                 <iconify-icon icon="lucide:arrow-up-right" class="fs-7 text-primary"></iconify-icon>
-                info@wrappixel.com
+                vipdigitalhub.com
               </a>
-              <a href="https://maps.app.goo.gl/hpDp81fqzGt5y4bC8" target="_blank"
+              <a href="https://share.google/yflUtzRsx4UmgSMzf" target="_blank"
                 class="link-hover hstack gap-3 text-white fs-5">
                 <iconify-icon icon="lucide:map-pin" class="fs-7 text-primary"></iconify-icon>
-                info@wrappixel.com
+               Front of Petrol Pump, House No. 2, Shravan Kanta, NZM Bypass Road, Estate, Bhopal, Madhya Pradesh 462021
               </a>
             </div>
           </div>
@@ -215,8 +245,8 @@
             <li><a class="link-hover fs-5 text-white" href="/about-us">About</a></li>
             <li><a class="link-hover fs-5 text-white" id="services" href="#services">Services</a></li>
             <li><a class="link-hover fs-5 text-white" href="/projects">Work</a></li>
-            <li><a class="link-hover fs-5 text-white" href="terms-and-conditions.html">Terms</a></li>
-            <li><a class="link-hover fs-5 text-white" href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a class="link-hover fs-5 text-white" href="/terms-and-conditions">Terms</a></li>
+            <li><a class="link-hover fs-5 text-white" href="/privacy-policy">Privacy Policy</a></li>
             <li><a class="link-hover fs-5 text-white" href="404.html">Error 404</a></li>
           </ul>
         </div>
@@ -228,11 +258,11 @@
           </ul>
         </div>
         <div class="col-md-4 col-xl-3 mb-8 mb-xl-0">
-          <p class="mb-0 text-white text-opacity-70 text-md-end">© Studiova copyright 2025</p>
+          <p class="mb-0 text-white text-opacity-70 text-md-end">© VIP Digital Hub copyright 2026</p>
         </div>
       </div>
     </div>
-  <p class="mb-0 text-white text-opacity-70 text-md-center mt-10">Distributed by <a class="text-white" href="https://www.themewagon.com" target="_blank">ThemeWagon</a></p>
+  <p class="mb-0 text-white text-opacity-70 text-md-center mt-10">Designed by <a class="text-white" href="https://vipdigitalhub.com" target="_blank">VIP Digital Hub</a></p>
   </footer>
 
   <div class="get-template hstack gap-2">

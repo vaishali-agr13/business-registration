@@ -146,7 +146,7 @@
                       data-aos-duration="1000"
                     >
                       <h2 class="mb-0 fs-14">
-                        <span class="count" data-target="40">40</span>K+
+                        <span class="count" data-target="40">30</span>K+
                       </h2>
                       <p class="mb-0">
                         People who have launched their websites
@@ -161,7 +161,7 @@
                       data-aos-duration="1000"
                     >
                       <h2 class="mb-0 fs-14">
-                        <span class="count" data-target="238">238</span>+
+                        <span class="count" data-target="138">238</span>+
                       </h2>
                       <p class="mb-0">
                         Experienced professionals ready to assist
@@ -176,7 +176,7 @@
                       data-aos-duration="1000"
                     >
                       <h2 class="mb-0 fs-14">
-                        <span class="count" data-target="3">3</span>M+
+                        <span class="count" data-target="3">1</span>M+
                       </h2>
                       <p class="mb-0">
                         Support through messages and live consultations
@@ -568,13 +568,12 @@
                               aria-controls="one"
                               aria-selected="true"
                             >
-                              Brand identity
+                              Web Development
                             </button>
                           </div>
                           <div class="col-lg-6 col-xxl-7">
                             <p class="text-white text-opacity-70 mb-0">
-                             Build a strong and memorable brand identity that sets your business apart from the competition. We create cohesive branding elements that reflect your values, connect with your audience, and strengthen brand recognition.
-                            </p>
+                              We build fast, responsive, and user-friendly websites tailored to your business needs. Our solutions ensure a seamless user experience and strong online presence.                            </p>
                           </div>
                         </div>
                       </li>
@@ -594,13 +593,12 @@
                               aria-controls="two"
                               aria-selected="false"
                             >
-                              Web development
+                              Android Apps
                             </button>
                           </div>
                           <div class="col-lg-6 col-xxl-7">
                             <p class="text-white text-opacity-70 mb-0">
-                              We build fast, responsive, and user-friendly websites tailored to your business goals, ensuring a seamless experience across all devices.
-                            </p>
+                                Creating eye-catching graphics and branding materials that enhance your business image and attract your target audience.                            </p>
                           </div>
                         </div>
                       </li>
@@ -621,13 +619,13 @@
                               aria-controls="three"
                               aria-selected="false"
                             >
-                              Content creation
+                              Web Site Design
+
                             </button>
                           </div>
                           <div class="col-lg-6 col-xxl-7">
                             <p class="text-white text-opacity-70 mb-0">
-                              We create engaging, high-quality content that captures attention, builds trust, and helps your brand connect with the right audience..
-                            </p>
+                              Creating modern, visually appealing, and user-friendly website designs that leave a lasting impression.                            </p>
                           </div>
                         </div>
                       </li>
@@ -647,13 +645,12 @@
                               aria-controls="four"
                               aria-selected="false"
                             >
-                              Motion & 3d modeling
+                                Graphics Design
                             </button>
                           </div>
                           <div class="col-lg-6 col-xxl-7">
                             <p class="text-white text-opacity-70 mb-0">
-                              Bring your ideas to life with stunning motion graphics and 3D models that enhance visual storytelling, boost engagement, and leave a lasting impression.
-                            </p>
+                               Designing creative and impactful visuals that strengthen your brand identity and engagement.                            </p>
                           </div>
                         </div>
                       </li>
@@ -792,8 +789,8 @@
                             height="64"
                           />
                           <div>
-                            <h5 class="mb-0">Wade Warren</h5>
-                            <p class="mb-0">Bank of America</p>
+                            <h5 class="mb-0">Rajesh Sharma</h5>
+                            <p class="mb-0">State Bank of India</p>
                           </div>
                         </div>
                       </div>
@@ -988,8 +985,8 @@
                         height="60"
                       />
                       <div>
-                        <h5 class="mb-1 fw-normal">Albert Flores</h5>
-                        <p class="mb-0">MasterCard</p>
+                        <h5 class="mb-1 fw-normal">Vijay Pandey</h5>
+                        <p class="mb-0">TechNova Solutions</p>
                       </div>
                     </div>
                   </div>
@@ -1071,9 +1068,9 @@
                           height="60"
                         />
                         <div>
-                          <h5 class="mb-1 fw-normal text-white">Robert Fox</h5>
+                          <h5 class="mb-1 fw-normal text-white">Priya Verma</h5>
                           <p class="mb-0 text-white text-opacity-70">
-                            Mitsubishi
+                            GrowthSphere Technologies
                           </p>
                         </div>
                       </div>
@@ -1113,8 +1110,8 @@
                         height="60"
                       />
                       <div>
-                        <h5 class="mb-1 fw-normal">Jenny Wilson</h5>
-                        <p class="mb-0">Pizza Hut</p>
+                        <h5 class="mb-1 fw-normal">Shikha Patel</h5>
+                        <p class="mb-0">Digital Edge Media</p>
                       </div>
                     </div>
                   </div>
@@ -1215,7 +1212,7 @@
                   </div>
                   <div class="meet-team-details">
                     <h4 class="mb-0">Aarav Sharma</h4>
-                    <p class="mb-0">Creative Director</p>
+                    <p class="mb-0">Project Manager</p>
                   </div>
                 </div>
               </div>
@@ -3066,8 +3063,8 @@
       <!--  FAQ Section -->
       <section class="faq py-5 py-lg-11 py-xl-12">
         <div class="container">
-          <div class="d-flex flex-column gap-5 gap-xl-11">
-            <div class="row gap-7 gap-xl-0">
+          <div class="d-flex flex-column gap-5 gap-xl-11" style="background:white;">
+            <div class="row gap-7 gap-xl-0" style="padding:45px;">
               <div class="col-xl-4 col-xxl-4">
                 <div
                   class="d-flex align-items-center gap-7 py-2"
@@ -3103,7 +3100,7 @@
                 </div>
               </div>
             </div>
-            <div class="row justify-content-end">
+            <div class="row justify-content-end" style="background:white;">
               <div class="col-xl-8">
                 <div
                   class="accordion accordion-flush"
@@ -3306,7 +3303,7 @@
                     />
                   </a>
                   <div class="resources-details">
-                    <p class="mb-0">Dec 24, 2025</p>
+                    <p class="mb-0">Dec 24, 2026</p>
                     <h4 class="mb-0">A campaign that connects</h4>
                   </div>
                 </div>
@@ -3329,7 +3326,7 @@
                     />
                   </a>
                   <div class="resources-details">
-                    <p class="mb-0">Dec 24, 2025</p>
+                    <p class="mb-0">Dec 24, 2026</p>
                     <h4 class="mb-0">
                       An breaking boundaries our latest brand redesign
                     </h4>
@@ -3354,7 +3351,7 @@
                     />
                   </a>
                   <div class="resources-details">
-                    <p class="mb-0">Dec 24, 2025</p>
+                    <p class="mb-0">Dec 24, 2026</p>
                     <h4 class="mb-0">Recognized for design</h4>
                   </div>
                 </div>

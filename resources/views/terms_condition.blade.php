@@ -52,8 +52,7 @@
                           class="img-fluid animate-spin">About</a>
                     </li>
                     <li class="header-item">
-                      <a href="/projects" aria-current="true"
-                        class="header-link active hstack gap-2 fs-7 fw-bold text-dark"><img
+                      <a href="/projects" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
                           src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
                           class="img-fluid animate-spin">Projects</a>
                     </li>
@@ -63,7 +62,7 @@
                           class="img-fluid animate-spin">Blog</a>
                     </li>
                     <li class="header-item">
-                      <a href="index.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
+                      <a href="#" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
                           src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
                           class="img-fluid animate-spin">Services</a>
                     </li>
@@ -77,8 +76,7 @@
                           src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
                           class="img-fluid animate-spin">Docs</a>
                     </li>
-
-                        <li class="header-item">
+                    <li class="header-item">
                         <a
                           href="/book-appointment"
                           class="header-link hstack gap-2 fs-7 fw-bold text-dark"
@@ -106,16 +104,16 @@
                       </li>
                   </ul>
                   <div class="hstack gap-3">
-                    <!-- <a href=""
+                    <!-- <a href="sign-in.html"
                       class="btn btn-outline-light fs-6 bg-white px-3 py-2 text-dark w-50 hstack justify-content-center">Sign
                       In</a>
-                    <a href=""
+                    <a href="sign-up.html"
                       class="btn btn-dark text-white fs-6 bg-dark px-3 py-2 w-50 hstack justify-content-center">Sign
                       Up</a> -->
                   </div>
                 </div>
                 <div>
-                  <a class="text-dark" href="tel:+91 7000153244">+91 7000153244</a>
+                  <a class="text-dark" href="tel:+91-7000153244">+91 7000153244</a>
                   <a class="fs-8 text-dark fw-bold" href="mailto:vipdigitalhub@gmail.com">vipdigitalhub@gmail.com</a>
                 </div>
               </div>
@@ -131,7 +129,7 @@
 
     <!--  Banner Section -->
     <section class="banner-section banner-inner-section position-relative overflow-hidden d-flex align-items-end"
-      style="background-image: url(../assets/images/backgrounds/projects-banner.jpg);">
+      style="background-image: url(../assets/images/backgrounds/privacy-policy-banner.jpg);">
       <div class="container">
         <div class="d-flex flex-column gap-4 pb-5 pb-xl-10 position-relative z-1">
           <div class="row align-items-center">
@@ -139,13 +137,13 @@
               <div class="d-flex align-items-center gap-4" data-aos="fade-up" data-aos-delay="100"
                 data-aos-duration="1000">
                 <img src="../assets/images/svgs/primary-leaf.svg" alt="" class="img-fluid animate-spin">
-                <p class="mb-0 text-white fs-5 text-opacity-70">A <span class="text-primary">
-                    Explore our successful projects</span>, that showcase creativity, innovation, and measurable business results..</p>
+                <p class="mb-0 text-white fs-5 text-opacity-70">Understand the <span class="text-primary">Rules &
+                    Guidelines</span>Before Using Our Services</p>
               </div>
             </div>
           </div>
           <div class="d-flex align-items-end gap-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-            <h1 class="mb-0 fs-16 text-white lh-1">Projects</h1>
+            <h1 class="mb-0 fs-15 text-white lh-1">Terms & Conditions</h1>
             <a href="javascript:void(0)" class="p-1 ps-7 bg-primary rounded-pill">
               <span class="bg-white round-52 rounded-circle d-flex align-items-center justify-content-center">
                 <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-dark"></iconify-icon>
@@ -156,137 +154,27 @@
       </div>
     </section>
 
-    <!--  Project Section -->
-    <section class="project py-5 py-lg-11 py-xl-12">
+    <!--  Terms & Conditions Section -->
+    <section class="terms-conditions py-5 py-lg-11">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-6 mb-7">
-            <div class="portfolio d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
-              data-aos-duration="1000">
-              <div class="portfolio-img position-relative overflow-hidden">
-                <img src="../assets/images/portfolio/portfolio-img-5.jpg" alt="" class="img-fluid w-100">
-                <div class="portfolio-overlay">
-                  <a href="projects-detail.html"
-                    class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center">
-                    <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-dark"></iconify-icon>
-                  </a>
-                </div>
-              </div>
-              <div class="portfolio-details d-flex flex-column gap-3">
-                <h3 class="mb-0">E-Commerce Platform</h3>
-                <div class="hstack gap-2">
-                  <span class="badge text-dark border">Digital design</span>
-                  <span class="badge text-dark border">VIP Digital Hub</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-7">
-            <div class="portfolio d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="200"
-              data-aos-duration="1000">
-              <div class="portfolio-img position-relative overflow-hidden">
-                <img src="../assets/images/portfolio/portfolio-img-4.jpg" alt="" class="img-fluid w-100">
-                <div class="portfolio-overlay">
-                  <a href="projects-detail.html"
-                    class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center">
-                    <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-dark"></iconify-icon>
-                  </a>
-                </div>
-              </div>
-              <div class="portfolio-details d-flex flex-column gap-3">
-                <h3 class="mb-0">Digital Marketing</h3>
-                <div class="hstack gap-2">
-                  <span class="badge text-dark border">Brand identity</span>
-                  <span class="badge text-dark border">Digital design</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-7">
-            <div class="portfolio d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="300"
-              data-aos-duration="1000">
-              <div class="portfolio-img position-relative overflow-hidden">
-                <img src="../assets/images/portfolio/portfolio-img-6.jpg" alt="" class="img-fluid w-100">
-                <div class="portfolio-overlay">
-                  <a href="projects-detail.html"
-                    class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center">
-                    <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-dark"></iconify-icon>
-                  </a>
-                </div>
-              </div>
-              <div class="portfolio-details d-flex flex-column gap-3">
-                <h3 class="mb-0">Visionary Web Solutions</h3>
-                <div class="hstack gap-2">
-                  <span class="badge text-dark border">Digital design</span>
-                  <span class="badge text-dark border">Web development</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-7">
-            <div class="portfolio d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="400"
-              data-aos-duration="1000">
-              <div class="portfolio-img position-relative overflow-hidden">
-                <img src="../assets/images/portfolio/portfolio-img-3.jpg" alt="" class="img-fluid w-100">
-                <div class="portfolio-overlay">
-                  <a href="projects-detail.html"
-                    class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center">
-                    <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-dark"></iconify-icon>
-                  </a>
-                </div>
-              </div>
-              <div class="portfolio-details d-flex flex-column gap-3">
-                <h3 class="mb-0">Social Impact Strategy</h3>
-                <div class="hstack gap-2">
-                  <span class="badge text-dark border">UI/UX design</span>
-                  <span class="badge text-dark border">Web development</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-7">
-            <div class="portfolio d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="500"
-              data-aos-duration="1000">
-              <div class="portfolio-img position-relative overflow-hidden">
-                <img src="../assets/images/portfolio/portfolio-img-1.jpg" alt="" class="img-fluid w-100">
-                <div class="portfolio-overlay">
-                  <a href="projects-detail.html"
-                    class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center">
-                    <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-dark"></iconify-icon>
-                  </a>
-                </div>
-              </div>
-              <div class="portfolio-details d-flex flex-column gap-3">
-                <h3 class="mb-0">E-Commerce Success Hub</h3>
-                <div class="hstack gap-2">
-                  <span class="badge text-dark border">UX Strategy</span>
-                  <span class="badge text-dark border">UI Design</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-7">
-            <div class="portfolio d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="600"
-              data-aos-duration="1000">
-              <div class="portfolio-img position-relative overflow-hidden">
-                <img src="../assets/images/portfolio/portfolio-img-2.jpg" alt="" class="img-fluid w-100">
-                <div class="portfolio-overlay">
-                  <a href="projects-detail.html"
-                    class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center">
-                    <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-dark"></iconify-icon>
-                  </a>
-                </div>
-              </div>
-              <div class="portfolio-details d-flex flex-column gap-3">
-                <h3 class="mb-0">Digital Reach Pro</h3>
-                <div class="hstack gap-2">
-                  <span class="badge text-dark border">Web development</span>
-                  <span class="badge text-dark border">Digital design</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <p class="fs-5 text-dark fw-medium">By accessing and using our website, you agree to comply with these Terms & Conditions. All content, services, and materials provided on this website are for informational and business purposes only. Users are responsible for ensuring that any information they provide is accurate and up to date. Unauthorized use, reproduction, or distribution of website content is strictly prohibited. We reserve the right to modify our services, content, or terms at any time without prior notice. Continued use of the website constitutes acceptance of any updated terms.
+        </p>
+        
+        <h4 class="my-4">1. Definitions</h4>
+        <p class="fs-5 text-dark fw-medium"><span class="fw-bold">1.1 “Authorized Devices”</span> Devices approved for accessing and using the Company's services, platforms, or applications..</p>
+        <p class="fs-5 text-dark fw-medium"><span class="fw-bold">1.2 “Content”</span> Any text, images, graphics, videos, documents, software, or other materials available through our website or services.</p>
+        <p class="fs-5 text-dark fw-medium"><span class="fw-bold">1.3 “Documentation”</span> User guides, manuals, instructions, policies, and other supporting materials provided by the Company.</p>
+        <p class="fs-5 text-dark fw-medium"><span class="fw-bold">1.4 “Services”</span> All digital marketing, web development, web design, SEO, branding, and related solutions offered by VIP Digital Hub</p>
+        <p class="fs-5 text-dark fw-medium"><span class="fw-bold">1.5 “Order Form”</span> Any proposal, quotation, agreement, invoice, or online form used to purchase or request services from the Company.</p>
+        <p class="fs-5 text-dark fw-medium"><span class="fw-bold">1.6 “Packages”or“Components”</span>Packages or Components refer to the individual services, features, tools, or bundled solutions offered by VIP Digital Hub. These may include web design, web development, digital marketing, SEO, branding, content creation, and other related services. Each package or component may have its own scope, deliverables, pricing, and service terms.</p>
+        <p class="fs-5 text-dark fw-medium"><span class="fw-bold">1.7 “User”</span> Any individual, company, organization, or entity that accesses, uses, or interacts with the Company's website, products, or services       </p>
+
+
+
+        <h4 class="my-4">2. License and use rights</h4>
+        <p class="fs-5 text-dark fw-medium"><span class="fw-bold">2.1 Services </span> VIP Digital Hub grants users a limited, non-exclusive, and non-transferable right to access and use its services solely for lawful business or personal purposes. Users may not copy, modify, distribute, resell, or misuse any part of the services without prior written permission from the Company.</p>
+        <p class="fs-5 text-dark fw-medium"><span class="fw-bold">2.2 Provisioning the Services</span>
+          The Company will provide services as outlined in the agreed proposal, package, or order form. While we strive to ensure uninterrupted and high-quality service, we reserve the right to update, modify, suspend, or discontinue any service feature when necessary for maintenance, security, or operational reasons</p>
       </div>
     </section>
 
@@ -295,6 +183,7 @@
   <footer class="footer bg-dark py-5 py-lg-11 py-xl-12">
 
     <div class="container">
+      
       <div class="row">
         <div class="col-xl-5 mb-8 mb-xl-0">
 
@@ -336,11 +225,10 @@
         </div>
       </div>
     </div>
-  <p class="mb-0 text-white text-opacity-70 text-md-center mt-10">Designed  by <a class="text-white" href="https://vipdigitalhub.com" target="_blank">VIP Digital Hub</a></p>
+  <p class="mb-0 text-white text-opacity-70 text-md-center mt-10">Designed by <a class="text-white" href="https://vipdigitalhub.com/" target="_blank">VIP Digital Hub</a></p>
   </footer>
 
   <div class="get-template hstack gap-2">
-    
     <button class="btn bg-primary p-2 round-52 rounded-circle hstack justify-content-center flex-shrink-0"
       id="scrollToTopBtn">
       <iconify-icon icon="lucide:arrow-up" class="fs-7 text-dark"></iconify-icon>

@@ -7,7 +7,7 @@
     <link
       rel="shortcut icon"
       type="image/png"
-      href="{{asset('assets/images/logos/favicon.svg')}}"
+      href="{{asset('assets/images/logos/viphublogo.png')}}"
     />
     <link
       rel="stylesheet"
@@ -28,14 +28,14 @@
           class="header-wrapper d-flex align-items-center justify-content-between"
         >
           <div class="logo">
-            <a href="index.html" class="logo-white">
+            <a href="/" class="logo-white">
               <img
                 src="{{asset('assets/images/logos/logo-white.svg')}}"
                 alt="logo"
                 class="img-fluid company-logo"
               />
             </a>
-            <a href="index.html" class="logo-dark">
+            <a href="/" class="logo-dark">
               <img
                 src="{{asset('assets/images/logos/logo-dark.svg')}}"
                 alt="logo"

@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Studiova</title>
-  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.svg" />
+  <title>VIP Digital Hub</title>
+  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/viphublogo.png" />
   <link rel="stylesheet" href="../assets/libs/owl.carousel/dist/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="../assets/libs/aos-master/dist/aos.css">
   <link rel="stylesheet" href="../assets/css/styles.css" />
@@ -18,10 +18,10 @@
     <div class="container">
       <div class="header-wrapper d-flex align-items-center justify-content-between">
         <div class="logo">
-          <a href="index.html" class="logo-white">
+          <a href="/" class="logo-white">
             <img src="../assets/images/logos/logo-white.svg" alt="logo" class="img-fluid">
           </a>
-          <a href="index.html" class="logo-dark">
+          <a href="/" class="logo-dark">
             <img src="../assets/images/logos/logo-dark.svg" alt="logo" class="img-fluid">
           </a>
         </div>
@@ -77,19 +77,46 @@
                           src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
                           class="img-fluid animate-spin">Docs</a>
                     </li>
+
+                    <li class="header-item">
+                        <a
+                          href="/book-appointment"
+                          class="header-link hstack gap-2 fs-7 fw-bold text-dark"
+                          ><img
+                            src="{{asset('assets/images/svgs/secondary-leaf.svg')}}"
+                            alt=""
+                            width="20"
+                            height="20"
+                            class="img-fluid animate-spin"
+                          />Appointment Booking</a
+                        >
+                      </li>
+                      <li class="header-item">
+                        <a
+                          href="/register-business"
+                          class="header-link hstack gap-2 fs-7 fw-bold text-dark"
+                          ><img
+                            src="{{asset('assets/images/svgs/secondary-leaf.svg')}}"
+                            alt=""
+                            width="20"
+                            height="20"
+                            class="img-fluid animate-spin"
+                          />Business Registration</a
+                        >
+                      </li>
                   </ul>
-                  <div class="hstack gap-3">
+                  <!-- <div class="hstack gap-3">
                     <a href="sign-in.html"
                       class="btn btn-outline-light fs-6 bg-white px-3 py-2 text-dark w-50 hstack justify-content-center">Sign
                       In</a>
                     <a href="sign-up.html"
                       class="btn btn-dark text-white fs-6 bg-dark px-3 py-2 w-50 hstack justify-content-center">Sign
                       Up</a>
-                  </div>
+                  </div> -->
                 </div>
                 <div>
-                  <a class="text-dark" href="tel:+1-212-456-7890">+1-212-456-7890</a>
-                  <a class="fs-8 text-dark fw-bold" href="mailto:info@wrappixel.com">info@wrappixel.com</a>
+                  <a class="text-dark" href="tel:+91-7000153244">+91 7000153244</a>
+                  <a class="fs-8 text-dark fw-bold" href="mailto:vipdigitalhub@gmail.com">vipdigitalhub@gmail.com</a>
                 </div>
               </div>
             </ul>
@@ -112,7 +139,7 @@
               <div class="d-flex align-items-center gap-4" data-aos="fade-up" data-aos-delay="100"
                 data-aos-duration="1000">
                 <img src="../assets/images/svgs/primary-leaf.svg" alt="" class="img-fluid animate-spin">
-                <p class="mb-0 text-white fs-5 text-opacity-70">We help businesses grow <span class="text-primary">online through strategic digital marketing</span> creative branding, and powerful web solutions that deliver measurable results.</p>
+                <p class="mb-0 text-white fs-5 text-opacity-70">We help businesses grow <span class="text-primary">online through strategic digital marketing</span> creative Web Development, and powerful web solutions that deliver measurable results.</p>
               </div>
             </div>
           </div>
@@ -134,22 +161,22 @@
         <div class="d-flex flex-column gap-5 gap-xl-11 gap-xxl-12">
           <div class="row gap-4 gap-lg-0">
             <div class="col-lg-4">
-              <h2 class="fs-13 mb-0" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">Studiova.</h2>
+              <h2 class="fs-13 mb-0" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">VIPDigitalHub</h2>
             </div>
             <div class="col-lg-8">
               <div class="d-flex flex-column gap-4 gap-lg-5" data-aos="fade-up" data-aos-delay="200"
                 data-aos-duration="1000">
                 <p class="mb-0 fs-5 text-dark">
-                  At Studiova, we are passionate about helping businesses build a strong and successful digital presence. Our team specializes in digital marketing, website development, branding, content creation, and social media management. We combine creativity with data-driven strategies to deliver measurable results and sustainable growth. Whether you're a startup or an established business, we create customized solutions tailored to your goals. Our focus is on increasing brand visibility, generating quality leads, and improving customer engagement.</p>
+                  At VIP Digital Hub, we are passionate about helping businesses build a strong and successful digital presence. Our team specializes in digital marketing, website development, Web Development, Digital Marketing, and social media management. We combine creativity with data-driven strategies to deliver measurable results and sustainable growth. Whether you're a startup or an established business, we create customized solutions tailored to your goals. Our focus is on increasing brand visibility, generating quality leads, and improving customer engagement.</p>
                 <p class="mb-0 fs-5 text-dark">
-                 With innovation, dedication, and a client-first approach, Studiova helps brands stand out in the competitive digital landscape.  </p>
+                 With innovation, dedication, and a client-first approach, VIP Digital Hub helps brands stand out in the competitive digital landscape.  </p>
               </div>
             </div>
           </div>
           <div class="row gx-xl-5">
             <div class="col-md-6 col-lg-4 mb-8 mb-lg-0">
               <div class="d-flex flex-column gap-7" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-                <h2 class="mb-0 fs-13 pb-7 border-bottom"><span class="count" data-target="45">45</span>+</h2>
+                <h2 class="mb-0 fs-13 pb-7 border-bottom"><span class="count" data-target="45">15</span>+</h2>
                 <div class="d-flex flex-column gap-3">
                   <h4 class="mb-0">Presence in global markets</h4>
                   <p class="mb-0">Expanding brands across multiple industries with innovative digital solutions and a strong global reach.</p>
@@ -158,7 +185,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mb-8 mb-lg-0">
               <div class="d-flex flex-column gap-7" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                <h2 class="mb-0 fs-13 pb-7 border-bottom"><span class="count" data-target="15">15</span>M</h2>
+                <h2 class="mb-0 fs-13 pb-7 border-bottom"><span class="count" data-target="15">3</span>M</h2>
                 <div class="d-flex flex-column gap-3">
                   <h4 class="mb-0">In strategic investments</h4>
                   <p class="mb-0">Delivering smart, growth-focused digital strategies that maximize value and long-term business success..</p>
@@ -167,7 +194,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mb-8 mb-lg-0">
               <div class="d-flex flex-column gap-7" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
-                <h2 class="mb-0 fs-13 pb-7 border-bottom"><span class="count" data-target="158">158</span>+</h2>
+                <h2 class="mb-0 fs-13 pb-7 border-bottom"><span class="count" data-target="158">28</span>+</h2>
                 <div class="d-flex flex-column gap-3">
                   <h4 class="mb-0">Trusted brand collaborations</h4>
                   <p class="mb-0">Partnering with leading brands to create impactful digital experiences and drive meaningful business growth.  </p>
@@ -185,195 +212,174 @@
       <div class="marquee w-100 d-flex align-items-center overflow-hidden bg-primary py-4">
         <div class="marquee-content d-flex align-items-center gap-8">
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Branding</h4>
+            <h4 class="mb-0">Web Development</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Web development</h4>
+            <h4 class="mb-0">Web Site Design </h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Agency</h4>
+            <h4 class="mb-0">Graphics Design</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Content creation</h4>
+            <h4 class="mb-0">Digital Marketing</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">SaaS</h4>
+            <h4 class="mb-0">Android Apps</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Motion & 3d modeling</h4>
+            <h4 class="mb-0">Social Media Management</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Photography</h4>
+            <h4 class="mb-0">Web Development</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Branding</h4>
+            <h4 class="mb-0">Web Site Design</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Web development</h4>
+            <h4 class="mb-0">Graphics Design</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Agency</h4>
+            <h4 class="mb-0">Digital Marketing</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Content creation</h4>
+            <h4 class="mb-0">Android Apps</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">SaaS</h4>
+            <h4 class="mb-0">Social Media Management</h4>
+            <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
+          </div>
+          
+          <div class="hstack gap-4 flex-shrink-0">
+            <h4 class="mb-0">Web Development</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Motion & 3d modeling</h4>
+            <h4 class="mb-0">Web Site Design</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Photography</h4>
+            <h4 class="mb-0">Graphics Design</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Branding</h4>
+            <h4 class="mb-0">Digital Marketing</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Web development</h4>
+            <h4 class="mb-0">Android Apps</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Agency</h4>
+            <h4 class="mb-0">Social Media Management</h4>
+            <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
+          </div>
+          
+          <div class="hstack gap-4 flex-shrink-0">
+            <h4 class="mb-0">Web Development</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Content creation</h4>
+            <h4 class="mb-0">Web Site Design</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">SaaS</h4>
+            <h4 class="mb-0">Graphics Design</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Motion & 3d modeling</h4>
+            <h4 class="mb-0">Digital Marketing</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Photography</h4>
+            <h4 class="mb-0">Android Apps</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Branding</h4>
+            <h4 class="mb-0">Social Media Management</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Web development</h4>
+            <h4 class="mb-0">Web Development</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Agency</h4>
+            <h4 class="mb-0">Web Site Design</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Content creation</h4>
+            <h4 class="mb-0">Graphics Design</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">SaaS</h4>
+            <h4 class="mb-0">Digital Marketing</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Motion & 3d modeling</h4>
+            <h4 class="mb-0">Android Apps</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Photography</h4>
+            <h4 class="mb-0">Social Media Management</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Branding</h4>
+            <h4 class="mb-0">Web Development</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Web development</h4>
+            <h4 class="mb-0">Web Site Design</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Agency</h4>
+            <h4 class="mb-0">Graphics Design</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Content creation</h4>
+            <h4 class="mb-0">Digital Marketing</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">SaaS</h4>
+            <h4 class="mb-0">Android Apps</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Motion & 3d modeling</h4>
+            <h4 class="mb-0">Social Media Management</h4>
+            <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
+          </div>
+  
+          <div class="hstack gap-4 flex-shrink-0">
+            <h4 class="mb-0">Web Development</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Photography</h4>
+            <h4 class="mb-0">Web Site Design</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Branding</h4>
+            <h4 class="mb-0">Graphics Design</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Web development</h4>
+            <h4 class="mb-0">Digital Marketing</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Agency</h4>
+            <h4 class="mb-0">Android Apps</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Content creation</h4>
-            <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
-          </div>
-          <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">SaaS</h4>
-            <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
-          </div>
-          <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Motion & 3d modeling</h4>
-            <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
-          </div>
-          <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Photography</h4>
-            <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
-          </div>
-          <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Branding</h4>
-            <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
-          </div>
-          <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Web development</h4>
-            <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
-          </div>
-          <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Agency</h4>
-            <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
-          </div>
-          <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Content creation</h4>
-            <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
-          </div>
-          <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">SaaS</h4>
-            <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
-          </div>
-          <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Motion & 3d modeling</h4>
+            <h4 class="mb-0">Social Media Management</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
@@ -381,33 +387,30 @@
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Branding</h4>
+            <h4 class="mb-0">Web Development</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Web development</h4>
+            <h4 class="mb-0">Web Site Design</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Agency</h4>
+            <h4 class="mb-0">Graphics Design</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Content creation</h4>
+            <h4 class="mb-0">Digital Marketing</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">SaaS</h4>
+            <h4 class="mb-0">Android Apps</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
           <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Motion & 3d modeling</h4>
+            <h4 class="mb-0">Social Media Management</h4>
             <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
           </div>
-          <div class="hstack gap-4 flex-shrink-0">
-            <h4 class="mb-0">Photography</h4>
-            <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
-          </div>
+         
         </div>
       </div>
     </section>
@@ -459,7 +462,7 @@
                 </div>
                 <div class="meet-team-details">
                   <h4 class="mb-0">Rocky Deshmukh</h4>
-                  <p class="mb-0">Creative Director</p>
+                  <p class="mb-0">Project Manager</p>
                 </div>
               </div>
             </div>
@@ -546,20 +549,22 @@
   </div>
 
   <footer class="footer bg-dark py-5 py-lg-11 py-xl-12">
+
     <div class="container">
       <div class="row">
         <div class="col-xl-5 mb-8 mb-xl-0">
+
           <div class="d-flex flex-column gap-8 pe-xl-5">
             <h2 class="mb-0 text-white">Build something together?</h2>
             <div class="d-flex flex-column gap-2">
-              <a href="https://www.wrappixel.com/" target="_blank" class="link-hover hstack gap-3 text-white fs-5">
+              <a href="https://vipdigitalhub.com" target="_blank" class="link-hover hstack gap-3 text-white fs-5">
                 <iconify-icon icon="lucide:arrow-up-right" class="fs-7 text-primary"></iconify-icon>
-                info@wrappixel.com
+                vipdigitalhub.com
               </a>
-              <a href="https://maps.app.goo.gl/hpDp81fqzGt5y4bC8" target="_blank"
+              <a href="https://share.google/yflUtzRsx4UmgSMzf" target="_blank"
                 class="link-hover hstack gap-3 text-white fs-5">
                 <iconify-icon icon="lucide:map-pin" class="fs-7 text-primary"></iconify-icon>
-                info@wrappixel.com
+               Front of Petrol Pump, House No. 2, Shravan Kanta, NZM Bypass Road, Estate, Bhopal, Madhya Pradesh 462021
               </a>
             </div>
           </div>
@@ -570,8 +575,8 @@
             <li><a class="link-hover fs-5 text-white" href="/about-us">About</a></li>
             <li><a class="link-hover fs-5 text-white" id="services" href="#services">Services</a></li>
             <li><a class="link-hover fs-5 text-white" href="/projects">Work</a></li>
-            <li><a class="link-hover fs-5 text-white" href="terms-and-conditions.html">Terms</a></li>
-            <li><a class="link-hover fs-5 text-white" href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a class="link-hover fs-5 text-white" href="/terms-and-conditions">Terms</a></li>
+            <li><a class="link-hover fs-5 text-white" href="/privacy-policy">Privacy Policy</a></li>
             <li><a class="link-hover fs-5 text-white" href="404.html">Error 404</a></li>
           </ul>
         </div>
@@ -583,11 +588,11 @@
           </ul>
         </div>
         <div class="col-md-4 col-xl-3 mb-8 mb-xl-0">
-          <p class="mb-0 text-white text-opacity-70 text-md-end">© Studiova copyright 2025</p>
+          <p class="mb-0 text-white text-opacity-70 text-md-end">© VIP Digital Hub copyright 2026</p>
         </div>
       </div>
     </div>
-    <p class="mb-0 text-white text-opacity-70 text-md-center mt-10">Distributed by <a class="text-white" href="https://www.themewagon.com" target="_blank" target="_blank">ThemeWagon</a></p>
+    <p class="mb-0 text-white text-opacity-70 text-md-center mt-10">Designed  by <a class="text-white" href="https://vipdigitalhub.com/" target="_blank" target="_blank">VIP Digital Hub</a></p>
   </footer>
 
   <div class="get-template hstack gap-2">

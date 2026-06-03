@@ -1,13 +1,15 @@
 
     <footer class="footer bg-dark py-5 py-lg-11 py-xl-12">
+
       <div class="container">
         <div class="row">
           <div class="col-xl-5 mb-8 mb-xl-0">
+
             <div class="d-flex flex-column gap-8 pe-xl-5">
               <h2 class="mb-0 text-white">Build something together?</h2>
               <div class="d-flex flex-column gap-2">
                 <a
-                  href="index.html"
+                  href="https://vipdigitalhub.com"
                   target="_blank"
                   class="link-hover hstack gap-3 text-white fs-5"
                 >
@@ -26,18 +28,17 @@
                     icon="lucide:map-pin"
                     class="fs-7 text-primary"
                   ></iconify-icon>
-                  Ayodhya Nagar, Bhopal, Madhya Pradesh 462041
-                </a>
+                  Front of Petrol Pump, House No. 2, Shravan Kanta, NZM Bypass Road, Estate, Bhopal, Madhya Pradesh 462021                </a>
               </div>
             </div>
           </div>
           <div class="col-md-4 col-xl-2 mb-8 mb-xl-0">
             <ul class="footer-menu list-unstyled mb-0 d-flex flex-column gap-2">
               <li>
-                <a class="link-hover fs-5 text-white" href="index.html">Home</a>
+                <a class="link-hover fs-5 text-white" href="/">Home</a>
               </li>
               <li>
-                <a class="link-hover fs-5 text-white" href="about-us.html"
+                <a class="link-hover fs-5 text-white" href="/about-us"
                   >About</a
                 >
               </li>
@@ -50,19 +51,19 @@
                 >
               </li>
               <li>
-                <a class="link-hover fs-5 text-white" href="projects.html"
+                <a class="link-hover fs-5 text-white" href="/projects"
                   >Work</a
                 >
               </li>
               <li>
                 <a
                   class="link-hover fs-5 text-white"
-                  href="terms-and-conditions.html"
+                  href="/terms-and-conditions"
                   >Terms</a
                 >
               </li>
               <li>
-                <a class="link-hover fs-5 text-white" href="privacy-policy.html"
+                <a class="link-hover fs-5 text-white" href="/privacy-policy"
                   >Privacy Policy</a
                 >
               </li>
@@ -96,14 +97,14 @@
           </div>
           <div class="col-md-4 col-xl-3 mb-8 mb-xl-0">
             <p class="mb-0 text-white text-opacity-70 text-md-end">
-              © Vip Digital Hub copyright 2025
+              © Vip Digital Hub copyright 2026
             </p>
           </div>
         </div>
       </div>
       <p class="mb-0 text-white text-opacity-70 text-md-center mt-10">
-        Distributed by
-        <a class="text-white" href="index.html" target="_blank"
+        Designed  by
+        <a class="text-white" href="https://vipdigitalhub.com/" target="_blank"
           >Vip Digital Hub</a
         >
       </p>

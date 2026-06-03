@@ -23,6 +23,13 @@ use App\Http\Controllers\AppointmentController;
                      });  
         Route::get('/contact', function () {
                         return view('contact');
+                     });
+                     
+         Route::get('/privacy-policy', function () {
+                        return view('privacy_policy');
+                     }); 
+         Route::get('/terms-and-conditions', function () {
+                        return view('terms_condition');
                      }); 
         Route::get('/register-business',[BusinessRegistrationController::class,'index']);
 
