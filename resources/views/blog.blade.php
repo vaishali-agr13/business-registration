@@ -160,20 +160,25 @@
     <section class="blog-section py-5 py-lg-11 py-xl-12">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 mb-7">
-            <div class="resources d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
-              data-aos-duration="1000">
-              <a href="blog-detail.html"
-                class="resources-img resources-img-blog position-relative overflow-hidden d-block">
-                <img src="../assets/images/resources/resources-1.jpg" alt="resources" class="img-fluid">
-              </a>
-              <div class="resources-details">
-                <p class="mb-0">Dec 24, 2026</p>
-                <h4 class="mb-0">The Future of Digital Marketing in 2026</h4>
+
+          @foreach($blogs as $blog)
+              <div class="col-lg-6 mb-7">
+                <div class="resources d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
+                  data-aos-duration="1000">
+                  <a href="blog-detail.html"
+                    class="resources-img resources-img-blog position-relative overflow-hidden d-block">
+                    <!-- <img src="../assets/images/resources/resources-1.jpg" alt="resources" class="img-fluid"> -->
+                    <img src="{{ asset('uploads/'.$blog->image) }}" alt="resources" class="img-fluid">
+
+                  </a>
+                  <div class="resources-details">
+                    <p class="mb-0">{{ \Carbon\Carbon::parse($blog->publish_date)->format('M d, Y') }}</p>
+                    <h4 class="mb-0">{{$blog->title}}</h4>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-7">
+          @endforeach
+          <!-- <div class="col-lg-6 mb-7">
             <div class="resources d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="200"
               data-aos-duration="1000">
               <a href="blog-detail.html"
@@ -211,7 +216,7 @@
                 <h4 class="mb-0">Building a Strong Brand Identity Online</h4>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>

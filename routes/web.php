@@ -2,6 +2,7 @@
 use App\Http\Controllers\BusinessRegistrationController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AppointmentController;
+use App\Http\Controllers\BlogController;
 
 
 
@@ -15,9 +16,15 @@ use App\Http\Controllers\AppointmentController;
         Route::get('/about-us', function () {
                         return view('about_us');
                      });  
-        Route::get('/blog', function () {
-                        return view('blog');
-                     });  
+      //   Route::get('/blog', function () {
+      //                   return view('blog');
+      //                });  
+      Route::get('/employee/dashboard', function () {
+             return view('employee.dashboard');
+      })->middleware('auth');
+
+         Route::get('/blog', [BlogController::class, 'showBlog']);   // list
+
         Route::get('/projects', function () {
                         return view('projects');
                      });  
@@ -68,6 +75,19 @@ use App\Http\Controllers\AppointmentController;
                 Route::post('/admin/appointments/{id}/delete', [AppointmentController::class, 'destroy'])->name('appointments.delete');
                 Route::get('/admin/appointment/status/{id}', [AppointmentController::class, 'toggleStatus'])->name('appointment.toggleStatus');
                  Route::post('/admin/logout', [AdminController::class, 'logout'])->name('admin.logout');
-        });
+        
+                Route::get('/admin/blogs', [BlogController::class, 'index'])->name('blogs.index');   // list
+               Route::get('/admin/blogs/create', [BlogController::class, 'create'])->name('blogs.create'); // add form
+               Route::post('/admin/blogs', [BlogController::class, 'store'])->name('blogs.store');   // save
+
+               Route::get('/admin/blogs/{id}', [BlogController::class, 'show'])->name('blogs.show');  // view single
+
+               Route::get('/admin/blogs/{id}/edit', [BlogController::class, 'edit'])->name('blogs.edit'); // edit form
+               Route::put('/admin/blogs/{id}', [BlogController::class, 'update'])->name('blogs.update');  // update
+
+               Route::delete('/admin/blogs/{id}', [BlogController::class, 'destroy'])->name('blogs.destroy'); // delete        
+        
+        
+         });
 
   

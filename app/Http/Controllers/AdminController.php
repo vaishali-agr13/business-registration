@@ -33,15 +33,20 @@ class AdminController extends Controller
 
             if (Auth::attempt($credentials)) {
 
-                $request->session()->regenerate(); // security
-                //session(['admin' => true]);
+                $request->session()->regenerate();
 
                 $user = Auth::user();
 
-                return redirect('/admin/dashboard');
-            }
+                if ($user->role === 'admin') {
+                    return redirect('/admin/dashboard');
+                }
 
-          
+                if ($user->role === 'employee') {
+                    return redirect('/employee/dashboard');
+                }
+
+                return redirect('/');
+            }
 
             return back()->withErrors([
                 'email' => 'Invalid credentials'
