@@ -215,9 +215,9 @@
         </div>
         <div class="col-md-4 col-xl-2 mb-8 mb-xl-0">
           <ul class="footer-menu list-unstyled mb-0 d-flex flex-column gap-2">
-            <li><a class="link-hover fs-5 text-white" href="#!">Facebook</a></li>
-            <li><a class="link-hover fs-5 text-white" href="#!">Instagram</a></li>
-            <li><a class="link-hover fs-5 text-white" href="#!">Twitter</a></li>
+            <li><a class="link-hover fs-5 text-white" href="https://www.facebook.com/vipdigitalhub/">Facebook</a></li>
+            <li><a class="link-hover fs-5 text-white" href="https://www.instagram.com/vipdigitalhub/">Instagram</a></li>
+            <li><a class="link-hover fs-5 text-white" href="https://x.com/">Twitter</a></li>
           </ul>
         </div>
         <div class="col-md-4 col-xl-3 mb-8 mb-xl-0">

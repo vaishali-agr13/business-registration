@@ -91,7 +91,7 @@
                 >
               </li>
               <li>
-                <a class="link-hover fs-5 text-white" href="#!">Twitter</a>
+                <a class="link-hover fs-5 text-white" href="https://x.com/">Twitter</a>
               </li>
             </ul>
           </div>
