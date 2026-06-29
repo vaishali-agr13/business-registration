@@ -40,6 +40,8 @@ use App\Http\Controllers\BlogController;
                      }); 
         Route::get('/register-business',[BusinessRegistrationController::class,'index']);
 
+        Route::get('/pricing/{slug}',[BusinessRegistrationController::class,'pricing']);
+        
         Route::post('/register-business',[BusinessRegistrationController::class,'storeStep1'])->name('business.step1');
 
         Route::get('/step2/{id}', [BusinessRegistrationController::class, 'step2']);

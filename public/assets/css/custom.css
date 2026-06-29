@@ -3,6 +3,171 @@ background:#e8d8cc;
 font-family:Arial;
 }
 
+.meet-our-team
+{
+    background-color: #fdf5ea; /* Warm clean bg color matching your theme */
+}
+
+.modern-team-card{
+    position: relative;
+  background: transparent;
+  border-radius: 20px;
+  overflow: visible;
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  margin-bottom: 30px;
+}
+
+.card-img-wrapper {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  transform: translateY(0);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.social-glass-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.social-btn {
+  width: 45px;
+  height: 45px;
+  background: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.social-btn:hover {
+  transform: scale(1.15);
+  background-color: #f39c12; /* Matches your brand orange highlight */
+}
+
+.card-info-box {
+  padding-top: 20px;
+  padding-left: 5px;
+  transition: transform 0.4s ease;
+}
+
+
+.modern-team-card:hover .card-img-wrapper {
+  transform: translateY(-10px);
+  box-shadow: 0 25px 50px rgba(243, 156, 18, 0.15); /* Orange tinted glow on hover */
+}
+
+.modern-team-card:hover .team-img {
+  transform: scale(1.06);
+}
+
+.custom-service-tabs .nav-link {
+transition: all 0.3s ease;  
+}
+
+.hover-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+.tab-content .tab-pane {
+transition: opacity 0.3s linear;
+
+}
+
+.custom-service-tabs .custom-tab-btn {
+transition: opacity 0.3s ease, color 0.3s ease;
+  font-size: calc(1.5rem + 1vw) !important;
+  letter-spacing: -0.02em;
+  color: #111111 !important;
+
+}
+
+.custom-service-tabs .custom-tab-btn:hover{
+ opacity: 0.85;
+}
+
+.atlas-img-wrapper {
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.08); /* White border se soft black overlay transparent border kiya */
+  border-radius: 1rem;
+}
+
+.atlas-img-wrapper img {
+  transition: transform 0.5s ease;
+}
+
+
+.tab-pane.active .atlas-img-wrapper img {
+  transform: scale(1);
+}
+
+.custom-service-tabs .custom-tab-btn.active {
+  opacity: 1 !important;
+  color: #000000 !important;
+}
+
+.custom-service-tabs .nav-link:hover,
+.custom-service-tabs .nav-link.active {
+opacity: 1 !important;
+  color: #ffc107 !important; /* Active text color */
+  padding-left: 5px !important;
+}
+
+.modern-team-card:hover .social-glass-overlay {
+  opacity: 1;
+}
+
+.modern-team-card:hover .social-links {
+  transform: translateY(0);
+}
+
+.member-role {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.member-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 4px;
+}
+
+.social-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.social-links {
+  display: flex;
+  gap: 12px;
+  transform: translateY(20px);
+  transition: transform 0.4s ease;
+}
+
+.team-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s ease;
+}
 
 
 .btn-danger{
@@ -184,5 +349,262 @@ textarea::placeholder {
     border-color: #0d6efd;
     background-color: #f8f9fa;
 }
+/* --- VIP Digital Hub - Light Theme Instagram Reels Layout --- */
 
+/* Main Section Background & Padding according to your site layout */
+.vip-reels-section {
+    background-color: #f8fafc; /* Premium Soft Off-White Background */
+    padding: 80px 20px;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    color: #1e293b; /* Dark slate text for legibility */
+}
+
+/* Max-Width Layout Alignment */
+.vip-reels-container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Header Text Styles */
+.vip-reels-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.vip-reels-header h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    letter-spacing: -0.5px;
+    /* Blue-Indigo gradient matching vipdigitalhub.com brand identity */
+    background: #521C0D;
+;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.vip-reels-header p {
+    font-size: 16px;
+    color: rgba(82, 28, 13, 0.7); /* Soft gray-blue text description */
+    max-width: 620px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.pricing-tabs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;               /* Buttons ke beech ka gap */
+    flex-wrap: wrap;          /* Responsive lane ke liye (mobile me auto wrap ho jayenge) */
+    max-width: 1100px;
+}
+
+.pricing-tab-btn {
+   display: inline-block;
+    padding: 14px 28px;
+    background-color: #f3ede4; /* Light cream tone */
+    color: #3d1d11;            /* Dark brown text color */
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 50px;       /* Pill shape design */
+    border: 2px solid #3d1d11;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+/* Hover Effect */
+.pricing-tab-btn:hover {
+    background-color: #e5dac9;
+    transform: translateY(-3px); /* Chota sa lift effect */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Active Class for the current page button */
+.pricing-tab-btn.active {
+    background-color: #3d1d11; /* Solid dark brown block */
+    color: #ffffff;            /* White text */
+    border-color: #3d1d11;
+    box-shadow: 0 4px 15px rgba(61, 29, 17, 0.25);
+}
+
+
+@media (min-width: 992px) {
+.custom-sticky-column {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 150px; /* Aapke navbar ki height ke hisab se adjust karein */
+    height: fit-content;
+  }
+
+  .custom-dynamic-title {
+    color: #2c1b18;
+    font-size: calc(2rem + 2.5vw);
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+
+  .sticky-title-wrapper {
+    padding-bottom: 2rem;
+  }
+
+  .title-fade-out {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  
+  @media (max-width: 991.98px) {
+  .custom-dynamic-title {
+    display: none; /* Mobile pe hum main dynamic text hide kar rahe hain kyunki content me blocks responsive chalenge */
+  }
+  .service-scroll-block::before {
+    content: attr(data-service-title);
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c1b18;
+    margin-bottom: 15px;
+  }
+}
+  .gap-lg-12 {
+gap: 120px !important; /* Har block ke bich me sufficient distance */
+  }
+
+  .service-title-col {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px; /* Agar aapka Header/Navbar fixed hai toh us hisab se is top value ko badha/ghata sakte hain (e.g. 120px) */
+    height: fit-content;
+    align-self: start;
+  }
+
+  .service-sticky-title {
+    color: #2c1b18;
+    font-size: calc(1.8rem + 1.8vw);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+  }
+
+  .custom-main-title {
+    color: #2c1b18;
+    font-size: calc(1.5rem + 3vw);
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .gap-lg-10 {
+    gap: 6rem !important;
+  }
+  .service-scroll-block {
+    padding-bottom: 2rem;
+  }
+}
+.pricing-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center */
+    align-items: center;     /* Horizontally center */
+    min-height: 60vh;        /* Screen ki height ke hisab se center karega */
+    text-align: center;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.pricing-main-heading {
+   font-size: 2.5rem;
+    color: #1a4ba8; /* Blue color from screenshot */
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.pricing-sub-heading {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.pricing-tabs-wrapper {
+    display: flex;
+    justify-content: center;  /* Horizontally center */
+    align-items: center;      /* Vertically center */
+    min-height: 40vh;         /* Aapki screen ke hisab se upar-niche se perfect center space dega */
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* 3-Column Grid for Desktop */
+.vip-reels-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+/* Individual Reel Card Styling (Like adybuzz UI element shown in image_c1a698.jpg) */
+.vip-reel-card {
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* Clean soft shadow */
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+}
+
+/* Hover effects with blue brand glow */
+.vip-reel-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(29, 78, 216, 0.12);
+}
+
+/* 9:16 Fixed Container to maintain original Reel Dimension shape */
+.vip-reel-video-container {
+    position: relative;
+    padding-bottom: 177.77%; 
+    height: 0;
+    background: #000000;
+}
+
+.vip-reel-video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Tablet Responsive View */
+@media (max-width: 991px) {
+    .vip-reels-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+    .vip-reels-header h2 {
+        font-size: 32px;
+    }
+}
+
+/* Mobile Responsive View */
+@media (max-width: 767px) {
+    .vip-reels-grid {
+        grid-template-columns: 1fr;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    .vip-reels-section {
+        padding: 50px 15px;
+    }
+    .vip-reels-header h2 {
+        font-size: 28px;
+    }
+    .vip-reels-header p {
+        font-size: 14px;
+    }
+}
 

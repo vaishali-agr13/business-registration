@@ -294,4 +294,8 @@ class BusinessRegistrationController extends Controller
         }
     }
 
+    public function pricing($slug){
+        return view('business.pricing',compact('slug'));
+    }
+
 }

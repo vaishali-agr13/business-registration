@@ -191,6 +191,20 @@
                           />Business Registration</a
                         >
                       </li>
+
+                      <li class="header-item">
+                        <a
+                          href="#"
+                          class="header-link hstack gap-2 fs-7 fw-bold text-dark"
+                          ><img
+                            src="{{asset('assets/images/svgs/secondary-leaf.svg')}}"
+                            alt=""
+                            width="20"
+                            height="20"
+                            class="img-fluid animate-spin"
+                          />Plan</a
+                        >
+                      </li>
                     </ul>
                     <div class="hstack gap-3">
                       <!-- <a

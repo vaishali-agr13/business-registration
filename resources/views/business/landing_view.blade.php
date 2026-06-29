@@ -441,240 +441,96 @@
         </div>
       </section>
 
-      <!--  Services Section -->
-      <section class="services py-5 py-lg-11 py-xl-12 bg-dark" id="services">
-        <div class="container">
-          <div class="d-flex flex-column gap-5 gap-xl-10">
-            <div class="row gap-7 gap-xl-0">
-              <div class="col-xl-4 col-xxl-4">
-                <div
-                  class="d-flex align-items-center gap-7 py-2"
-                  data-aos="fade-right"
-                  data-aos-delay="100"
-                  data-aos-duration="1000"
-                >
-                  <span
-                    class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium"
-                    >03</span
-                  >
-                  <hr class="border-line bg-white" />
-                  <span class="badge text-dark bg-white">Services</span>
-                </div>
-              </div>
-              <div class="col-xl-8 col-xxl-7">
-                <div class="row">
-                  <div class="col-xxl-8">
-                    <div
-                      class="d-flex flex-column gap-6"
-                      data-aos="fade-up"
-                      data-aos-delay="100"
-                      data-aos-duration="1000"
-                    >
-                      <h2 class="mb-0 text-white">What we do</h2>
-                      <p class="fs-5 mb-0 text-white text-opacity-70">
-                        We provide result-driven digital marketing solutions to help businesses grow online, attract qualified leads, and increase conversions. From website design and SEO to social media marketing and paid advertising, our services are tailored to deliver measurable success and long-term growth..
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="services-tab">
-              <div class="row gap-5 gap-xl-0">
-                <div class="col-xl-4">
-                  <div
-                    class="tab-content"
-                    data-aos="zoom-in"
-                    data-aos-delay="100"
-                    data-aos-duration="1000"
-                  >
-                    <div
-                      class="tab-pane active"
-                      id="one"
-                      role="tabpanel"
-                      aria-labelledby="one-tab"
-                      tabindex="0"
-                    >
-                      <img
-                        src="{{ asset('assets/images/services/services-img-1.jpg') }}"
-                        alt="services"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div
-                      class="tab-pane"
-                      id="two"
-                      role="tabpanel"
-                      aria-labelledby="two-tab"
-                      tabindex="0"
-                    >
-                      <img
-                        src="{{ asset('assets/images/services/services-img-2.jpg') }}"
-                        alt="services"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div
-                      class="tab-pane"
-                      id="three"
-                      role="tabpanel"
-                      aria-labelledby="three-tab"
-                      tabindex="0"
-                    >
-                      <img
-                        src="{{ asset('assets/images/services/services-img-3.jpg') }}"
-                        alt="services"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <div
-                      class="tab-pane"
-                      id="four"
-                      role="tabpanel"
-                      aria-labelledby="four-tab"
-                      tabindex="0"
-                    >
-                      <img
-                        src="{{ asset('assets/images/services/services-img-4.jpg') }}"
-                        alt="services"
-                        class="img-fluid"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-8">
-                  <div class="d-flex flex-column gap-5">
-                    <ul
-                      class="nav nav-tabs"
-                      id="myTab"
-                      role="tablist"
-                      data-aos="fade-up"
-                      data-aos-delay="200"
-                      data-aos-duration="1000"
-                    >
-                      <li
-                        class="nav-item py-4 py-lg-8 border-top border-white border-opacity-10 d-flex align-items-center w-100"
-                        role="presentation"
-                      >
-                        <div class="row w-100 align-items-center gx-3">
-                          <div class="col-lg-6 col-xxl-5">
-                            <button
-                              class="nav-link fs-10 fw-bold py-1 px-0 border-0 rounded-0 flex-shrink-0 active"
-                              id="one-tab"
-                              data-bs-toggle="tab"
-                              data-bs-target="#one"
-                              type="button"
-                              role="tab"
-                              aria-controls="one"
-                              aria-selected="true"
-                            >
-                              Web Development
-                            </button>
-                          </div>
-                          <div class="col-lg-6 col-xxl-7">
-                            <p class="text-white text-opacity-70 mb-0">
-                              We build fast, responsive, and user-friendly websites tailored to your business needs. Our solutions ensure a seamless user experience and strong online presence.                            </p>
-                          </div>
-                        </div>
-                      </li>
-                      <li
-                        class="nav-item py-4 py-lg-8 border-top border-white border-opacity-10 d-flex align-items-center w-100"
-                        role="presentation"
-                      >
-                        <div class="row w-100 align-items-center gx-3">
-                          <div class="col-lg-6 col-xxl-5">
-                            <button
-                              class="nav-link fs-10 fw-bold py-1 px-0 border-0 rounded-0 flex-shrink-0"
-                              id="two-tab"
-                              data-bs-toggle="tab"
-                              data-bs-target="#two"
-                              type="button"
-                              role="tab"
-                              aria-controls="two"
-                              aria-selected="false"
-                            >
-                              Android Apps
-                            </button>
-                          </div>
-                          <div class="col-lg-6 col-xxl-7">
-                            <p class="text-white text-opacity-70 mb-0">
-                                Creating eye-catching graphics and branding materials that enhance your business image and attract your target audience.                            </p>
-                          </div>
-                        </div>
-                      </li>
-                      <li
-                        class="nav-item py-4 py-lg-8 border-top border-white border-opacity-10 d-flex align-items-center w-100"
-                        role="presentation"
-                      >
-                      
-                        <div class="row w-100 align-items-center gx-3">
-                          <div class="col-lg-6 col-xxl-5">
-                            <button
-                              class="nav-link fs-10 fw-bold py-1 px-0 border-0 rounded-0 flex-shrink-0"
-                              id="three-tab"
-                              data-bs-toggle="tab"
-                              data-bs-target="#three"
-                              type="button"
-                              role="tab"
-                              aria-controls="three"
-                              aria-selected="false"
-                            >
-                              Web Site Design
 
-                            </button>
-                          </div>
-                          <div class="col-lg-6 col-xxl-7">
-                            <p class="text-white text-opacity-70 mb-0">
-                              Creating modern, visually appealing, and user-friendly website designs that leave a lasting impression.                            </p>
-                          </div>
-                        </div>
-                      </li>
-                      <li
-                        class="nav-item py-4 py-lg-8 border-top border-white border-opacity-10 d-flex align-items-center w-100"
-                        role="presentation"
-                      >
-                        <div class="row w-100 align-items-center gx-3">
-                          <div class="col-lg-6 col-xxl-5">
-                            <button
-                              class="nav-link fs-10 fw-bold py-1 px-0 border-0 rounded-0 flex-shrink-0"
-                              id="four-tab"
-                              data-bs-toggle="tab"
-                              data-bs-target="#four"
-                              type="button"
-                              role="tab"
-                              aria-controls="four"
-                              aria-selected="false"
-                            >
-                                Graphics Design
-                            </button>
-                          </div>
-                          <div class="col-lg-6 col-xxl-7">
-                            <p class="text-white text-opacity-70 mb-0">
-                               Designing creative and impactful visuals that strengthen your brand identity and engagement.                            </p>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                    <a
-                      href="projects.html"
-                      class="btn border border-white border-opacity-25"
-                      data-aos="fade-up"
-                      data-aos-delay="300"
-                      data-aos-duration="1000"
-                    >
-                      <span class="btn-text">See our Work</span>
-                      <iconify-icon
-                        icon="lucide:arrow-up-right"
-                        class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"
-                      ></iconify-icon>
-                    </a>
-                  </div>
-                </div>
+      <section class="services py-5 py-lg-11 py-xl-12" id="services">
+  <div class="container">
+    <div class="d-flex flex-column gap-5 gap-xl-8">
+      
+      <div class="row mb-3">
+        <div class="col-100 ps-lg-3 ps-xl-5">
+          <div class="d-flex align-items-center gap-3 mb-3" data-aos="fade-right" data-aos-duration="1000">
+            <span class="d-inline-flex align-items-center justify-content-center text-white rounded-circle fw-semibold fs-7 shadow-sm" 
+                  style="width: 32px; height: 32px; background-color: #e67e22;">
+              03
+            </span>
+            <hr class="border-dark opacity-25 my-0" style="width: 40px;" />
+            <span class="badge px-3 py-2 rounded-pill text-white fw-medium fs-8" 
+                  style="background-color: #2c1b18; letter-spacing: 0.05em;">
+              Services
+            </span>
+          </div>
+          
+          <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            <h2 class="display-5 fw-bold mb-0" style="color: #2c1b18; letter-spacing: -0.02em;">What we do</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="services-scroll-layout pt-2">
+        <div class="d-flex flex-column gap-5 gap-lg-12">
+          
+          <div class="row g-5 service-scroll-row border-top border-dark border-opacity-10 pt-4 pt-lg-5">
+            <div class="col-lg-5 ps-lg-3 ps-xl-5 service-title-col">
+              <h3 class="display-4 fw-bold service-sticky-title">Web Development</h3>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-dark text-opacity-75 mb-4 fs-5 fw-normal">
+                We build fast, responsive, and user-friendly websites tailored to your business needs. Our solutions ensure a seamless user experience and strong online presence.
+              </p>
+              <div class="atlas-img-wrapper">
+                <img src="{{ asset('assets/images/services/services-img-1.jpg') }}" alt="Web Development" class="img-fluid w-100 object-fit-cover rounded-4" style="height: 420px;" />
               </div>
             </div>
           </div>
+
+          <div class="row g-5 service-scroll-row border-top border-dark border-opacity-10 pt-4 pt-lg-5">
+            <div class="col-lg-5 ps-lg-3 ps-xl-5 service-title-col">
+              <h3 class="display-4 fw-bold service-sticky-title">Website Designing</h3>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-dark text-opacity-75 mb-4 fs-5 fw-normal">
+                Creating modern, visually appealing, and user-friendly website designs that leave a lasting impression and match premium industrial standards.
+              </p>
+              <div class="atlas-img-wrapper">
+                <img src="{{ asset('assets/images/services/services-img-3.jpg') }}" alt="Website Design" class="img-fluid w-100 object-fit-cover rounded-4" style="height: 420px;" />
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-5 service-scroll-row border-top border-dark border-opacity-10 pt-4 pt-lg-5">
+            <div class="col-lg-5 ps-lg-3 ps-xl-5 service-title-col">
+              <h3 class="display-4 fw-bold service-sticky-title">Android Apps</h3>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-dark text-opacity-75 mb-4 fs-5 fw-normal">
+                Creating custom mobile applications designed to perform flawlessly across all Android devices, expanding your business reach effortlessly.
+              </p>
+              <div class="atlas-img-wrapper">
+                <img src="{{ asset('assets/images/services/services-img-2.jpg') }}" alt="Android Apps" class="img-fluid w-100 object-fit-cover rounded-4" style="height: 420px;" />
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-5 service-scroll-row border-top border-dark border-opacity-10 pt-4 pt-lg-5">
+            <div class="col-lg-5 ps-lg-3 ps-xl-5 service-title-col">
+              <h3 class="display-4 fw-bold service-sticky-title">Graphics Design</h3>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-dark text-opacity-75 mb-4 fs-5 fw-normal">
+                Designing creative and impactful visuals that strengthen your brand identity, business presentations, and user engagement.
+              </p>
+              <div class="atlas-img-wrapper">
+                <img src="{{ asset('assets/images/services/services-img-4.jpg') }}" alt="Graphics Design" class="img-fluid w-100 object-fit-cover rounded-4" style="height: 420px;" />
+              </div>
+            </div>
+          </div>
+
         </div>
-      </section>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       <!--  Why choose us Section -->
       <section class="why-choose-us py-5 py-lg-11 py-xl-12">
@@ -1124,1941 +980,128 @@
 
       <!--  Meet our team Section -->
       <section class="meet-our-team py-5 py-lg-11 py-xl-12">
-        <div class="container">
-          <div class="d-flex flex-column gap-5 gap-xl-11">
-            <div class="row gap-7 gap-xl-0">
-              <div class="col-xl-4 col-xxl-4">
-                <div
-                  class="d-flex align-items-center gap-7 py-2"
-                  data-aos="fade-right"
-                  data-aos-delay="100"
-                  data-aos-duration="1000"
-                >
-                  <span
-                    class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium"
-                    >06</span
-                  >
-                  <hr class="border-line bg-white" />
-                  <span class="badge text-bg-dark">The team</span>
-                </div>
-              </div>
-              <div class="col-xl-8 col-xxl-7">
-                <div class="row">
-                  <div class="col-xxl-8">
-                    <div
-                      class="d-flex flex-column gap-6"
-                      data-aos="fade-up"
-                      data-aos-delay="100"
-                      data-aos-duration="1000"
-                    >
-                      <h2 class="mb-0">Meet our team</h2>
-                      <p class="fs-5 mb-0 text-opacity-70">
-                        Meet the creative minds and digital experts dedicated to delivering innovative strategies and exceptional results for your business growth
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6 col-xl-3 mb-7 mb-xl-0">
-                <div
-                  class="meet-team d-flex flex-column gap-4"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                  data-aos-duration="1000"
-                >
-                  <div class="meet-team-img position-relative overflow-hidden">
-                    <img
-                      src="{{ asset('assets/images/team/team-img-1.jpg') }}"
-                      alt="team-img"
-                      class="img-fluid w-100"
-                    />
-                    <div
-                      class="meet-team-overlay p-7 d-flex flex-column justify-content-end"
-                    >
-                      <ul
-                        class="social list-unstyled mb-0 hstack gap-2 justify-content-end"
-                      >
-                        <li>
-                          <a
-                            href="#!"
-                            class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"
-                            ><img
-                              src="{{ asset('assets/images/svgs/icon-twitter.svg') }}"
-                              alt="twitter"
-                          /></a>
-                        </li>
-                        <li>
-                          <a
-                            href="#!"
-                            class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"
-                            ><img
-                              src="{{ asset('assets/images/svgs/icon-be.svg') }}"
-                              alt="be"
-                          /></a>
-                        </li>
-                        <li>
-                          <a
-                            href="#!"
-                            class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"
-                            ><img
-                              src="{{ asset('assets/images/svgs/icon-linkedin.svg') }}"
-                              alt="linkedin"
-                          /></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="meet-team-details">
-                    <h4 class="mb-0">Aarav Sharma</h4>
-                    <p class="mb-0">Project Manager</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-xl-3 mb-7 mb-xl-0">
-                <div
-                  class="meet-team d-flex flex-column gap-4"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                  data-aos-duration="1000"
-                >
-                  <div class="meet-team-img position-relative overflow-hidden">
-                    <img
-                      src="{{ asset('assets/images/team/team-img-2.jpg') }}"
-                      alt="team-img"
-                      class="img-fluid w-100"
-                    />
-                    <div
-                      class="meet-team-overlay p-7 d-flex flex-column justify-content-end"
-                    >
-                      <ul
-                        class="social list-unstyled mb-0 hstack gap-2 justify-content-end"
-                      >
-                        <li>
-                          <a
-                            href="#!"
-                            class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"
-                            ><img
-                              src="{{ asset('assets/images/svgs/icon-twitter.svg') }}"
-                              alt="twitter"
-                          /></a>
-                        </li>
-                        <li>
-                          <a
-                            href="#!"
-                            class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"
-                            ><img
-                              src="{{ asset('assets/images/svgs/icon-be.svg') }}"
-                              alt="be"
-                          /></a>
-                        </li>
-                        <li>
-                          <a
-                            href="#!"
-                            class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"
-                            ><img
-                              src="{{ asset('assets/images/svgs/icon-linkedin.svg') }}"
-                              alt="linkedin"
-                          /></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="meet-team-details">
-                    <h4 class="mb-0">Kiran Gupta</h4>
-                    <p class="mb-0">Marketing Strategist</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-xl-3 mb-7 mb-xl-0">
-                <div
-                  class="meet-team d-flex flex-column gap-4"
-                  data-aos="fade-up"
-                  data-aos-delay="300"
-                  data-aos-duration="1000"
-                >
-                  <div class="meet-team-img position-relative overflow-hidden">
-                    <img
-                      src="{{ asset('assets/images/team/team-img-3.jpg') }}"
-                      alt="team-img"
-                      class="img-fluid w-100"
-                    />
-                    <div
-                      class="meet-team-overlay p-7 d-flex flex-column justify-content-end"
-                    >
-                      <ul
-                        class="social list-unstyled mb-0 hstack gap-2 justify-content-end"
-                      >
-                        <li>
-                          <a
-                            href="#!"
-                            class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"
-                            ><img
-                              src="{{ asset('assets/images/svgs/icon-twitter.svg') }}"
-                              alt="twitter"
-                          /></a>
-                        </li>
-                        <li>
-                          <a
-                            href="#!"
-                            class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"
-                            ><img
-                              src="{{ asset('assets/images/svgs/icon-be.svg') }}"
-                              alt="be"
-                          /></a>
-                        </li>
-                        <li>
-                          <a
-                            href="#!"
-                            class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"
-                            ><img
-                              src="{{ asset('assets/images/svgs/icon-linkedin.svg') }}"
-                              alt="linkedin"
-                          /></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="meet-team-details">
-                    <h4 class="mb-0">Karan Patel</h4>
-                    <p class="mb-0">Lead Designer</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-xl-3 mb-7 mb-xl-0">
-                <div
-                  class="meet-team d-flex flex-column gap-4"
-                  data-aos="fade-up"
-                  data-aos-delay="400"
-                  data-aos-duration="1000"
-                >
-                  <div class="meet-team-img position-relative overflow-hidden">
-                    <img
-                      src="{{ asset('assets/images/team/team-img-4.jpg') }}"
-                      alt="team-img"
-                      class="img-fluid w-100"
-                    />
-                    <div
-                      class="meet-team-overlay p-7 d-flex flex-column justify-content-end"
-                    >
-                      <ul
-                        class="social list-unstyled mb-0 hstack gap-2 justify-content-end"
-                      >
-                        <li>
-                          <a
-                            href="#!"
-                            class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"
-                            ><img
-                              src="{{ asset('assets/images/svgs/icon-twitter.svg') }}"
-                              alt="twitter"
-                          /></a>
-                        </li>
-                        <li>
-                          <a
-                            href="#!"
-                            class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"
-                            ><img
-                              src="{{ asset('assets/images/svgs/icon-be.svg') }}"
-                              alt="be"
-                          /></a>
-                        </li>
-                        <li>
-                          <a
-                            href="#!"
-                            class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"
-                            ><img
-                              src="{{ asset('assets/images/svgs/icon-linkedin.svg') }}"
-                              alt="linkedin"
-                          /></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="meet-team-details">
-                    <h4 class="mb-0">Ananya Singh</h4>
-                    <p class="mb-0">UX/UI Developer</p>
-                  </div>
-                </div>
+  <div class="container">
+    <div class="d-flex flex-column gap-5 gap-xl-11">
+      
+      <div class="row gap-7 gap-xl-0 mb-5">
+        <div class="col-xl-4 col-xxl-4">
+          <div class="d-flex align-items-center gap-3 py-2" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
+            <span class="round-36 flex-shrink-0 text-white rounded-circle bg-dark hstack justify-content-center fw-bold">06</span>
+            <hr class="border-line bg-dark w-25 m-0" />
+            <span class="badge text-bg-dark px-3 py-2 rounded-pill">The Team</span>
+          </div>
+        </div>
+        <div class="col-xl-8 col-xxl-7">
+          <div class="row">
+            <div class="col-xxl-8">
+              <div class="d-flex flex-column gap-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <h2 class="mb-0 fw-bold display-5 text-dark">Meet Our Team</h2>
+                <p class="fs-5 mb-0 text-muted">
+                  Meet the creative minds and digital experts dedicated to delivering innovative strategies and exceptional results for your business growth.
+                </p>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+
+      <div class="row g-4">
+        
+        <div class="col-md-6 col-xl-3">
+          <div class="modern-team-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-img-wrapper">
+              <img src="{{ asset('assets/images/team/team-img-1.jpg') }}" alt="Aarav Sharma" class="team-img" />
+              <div class="social-glass-overlay">
+                <div class="social-links">
+                  <a href="#!" class="social-btn"><img src="{{ asset('assets/images/svgs/icon-twitter.svg') }}" alt="twitter" /></a>
+                  <a href="#!" class="social-btn"><img src="{{ asset('assets/images/svgs/icon-be.svg') }}" alt="behance" /></a>
+                  <a href="#!" class="social-btn"><img src="{{ asset('assets/images/svgs/icon-linkedin.svg') }}" alt="linkedin" /></a>
+                </div>
+              </div>
+            </div>
+            <div class="card-info-box">
+              <h4 class="member-name">Aarav Sharma</h4>
+              <p class="member-role">Project Manager</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-xl-3">
+          <div class="modern-team-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-img-wrapper">
+              <img src="{{ asset('assets/images/team/team-img-2.jpg') }}" alt="Kiran Gupta" class="team-img" />
+              <div class="social-glass-overlay">
+                <div class="social-links">
+                  <a href="#!" class="social-btn"><img src="{{ asset('assets/images/svgs/icon-twitter.svg') }}" alt="twitter" /></a>
+                  <a href="#!" class="social-btn"><img src="{{ asset('assets/images/svgs/icon-be.svg') }}" alt="behance" /></a>
+                  <a href="#!" class="social-btn"><img src="{{ asset('assets/images/svgs/icon-linkedin.svg') }}" alt="linkedin" /></a>
+                </div>
+              </div>
+            </div>
+            <div class="card-info-box">
+              <h4 class="member-name">Kiran Gupta</h4>
+              <p class="member-role">Marketing Strategist</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-xl-3">
+          <div class="modern-team-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-img-wrapper">
+              <img src="{{ asset('assets/images/team/team-img-3.jpg') }}" alt="Karan Patel" class="team-img" />
+              <div class="social-glass-overlay">
+                <div class="social-links">
+                  <a href="#!" class="social-btn"><img src="{{ asset('assets/images/svgs/icon-twitter.svg') }}" alt="twitter" /></a>
+                  <a href="#!" class="social-btn"><img src="{{ asset('assets/images/svgs/icon-be.svg') }}" alt="behance" /></a>
+                  <a href="#!" class="social-btn"><img src="{{ asset('assets/images/svgs/icon-linkedin.svg') }}" alt="linkedin" /></a>
+                </div>
+              </div>
+            </div>
+            <div class="card-info-box">
+              <h4 class="member-name">Karan Patel</h4>
+              <p class="member-role">Lead Designer</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-xl-3">
+          <div class="modern-team-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-img-wrapper">
+              <img src="{{ asset('assets/images/team/team-img-4.jpg') }}" alt="Ananya Singh" class="team-img" />
+              <div class="social-glass-overlay">
+                <div class="social-links">
+                  <a href="#!" class="social-btn"><img src="{{ asset('assets/images/svgs/icon-twitter.svg') }}" alt="twitter" /></a>
+                  <a href="#!" class="social-btn"><img src="{{ asset('assets/images/svgs/icon-be.svg') }}" alt="behance" /></a>
+                  <a href="#!" class="social-btn"><img src="{{ asset('assets/images/svgs/icon-linkedin.svg') }}" alt="linkedin" /></a>
+                </div>
+              </div>
+            </div>
+            <div class="card-info-box">
+              <h4 class="member-name">Ananya Singh</h4>
+              <p class="member-role">UX/UI Developer</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
 
       <!--  Pricing Section -->
-      <section class="pricing-section py-5 py-lg-11 py-xl-12 bg-light-gray">
-        <div class="container">
-          <div class="d-flex flex-column gap-5 gap-xl-10">
-            <div class="d-flex flex-column gap-5 gap-xl-11">
-              <div class="row gap-7 gap-xl-0">
-                <div class="col-xl-4 col-xxl-4">
-                  <div
-                    class="d-flex align-items-center gap-7 py-2"
-                    data-aos="fade-right"
-                    data-aos-delay="100"
-                    data-aos-duration="1000"
-                  >
-                    <span
-                      class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium"
-                      >07.1</span
-                    >
-                    <hr class="border-line bg-white" />
-                    <span class="badge text-bg-dark">Pricing</span>
-                  </div>
-                </div>
-                <div class="col-xl-8 col-xxl-7">
-                  <div class="row">
-                    <div class="col-xxl-8">
-                      <div
-                        class="d-flex flex-column gap-6"
-                        data-aos="fade-up"
-                        data-aos-delay="100"
-                        data-aos-duration="1000"
-                      >
-                        <h2 class="mb-0">
-                          Affordable pricing of Web Development
-                        </h2>
-                        <p class="fs-5 mb-0 text-opacity-70">
-                          Get professional, high-quality web development services at competitive prices, tailored to fit your business needs and budget..
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div
-                  class="col-lg-6 col-xl-4 mb-7 mb-xl-0 d-flex align-items-stretch"
-                >
-                  <div
-                    class="card w-100"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                    data-aos-duration="1000"
-                  >
-                    <div class="card-body p-7 p-xxl-5 d-flex flex-column gap-8">
-                      <div class="d-flex flex-column gap-6">
-                        <h5 class="mb-0 fw-medium">Launch</h5>
-                        <div class="hstack gap-2">
-                          <h3 class="mb-0">₹ 2,999/</h3>
-                          <!-- <p class="mb-0">/month</p> -->
-                        </div>
-                        <p class="mb-0">
-                          Ideal for startups and small businesses taking their
-                          first steps online.
-                        </p>
-                      </div>
-                      <div class="pt-8 border-top d-flex flex-column gap-6">
-                        <h6 class="mb-0 fw-normal">What’s Included:</h6>
-                        <ul class="list-unstyled d-flex flex-column gap-3 mb-0">
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">1–5 Pages website</h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Responsive Mobile-Friendly Design
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              WhatsApp & Social Media Button Integration
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Contact Form (Email Notification)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Free Basic Hosting (1 Year)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              1-Time Setup (No CMS, Static Website)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Free Logo Placement & Color Customization
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Delivery Time: 2–3 Days
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Support: 1 Year Free Support
-                            </h6>
-                          </li>
-                        </ul>
-                      </div>
-                      <a href="" class="btn w-100 justify-content-center">
-                        <span class="btn-text">Subscribe now</span>
-                        <iconify-icon
-                          icon="lucide:arrow-up-right"
-                          class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"
-                        ></iconify-icon>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-lg-6 col-xl-4 mb-7 mb-xl-0 d-flex align-items-stretch"
-                >
-                  <div
-                    class="card w-100"
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                    data-aos-duration="1000"
-                  >
-                    <div class="card-body p-7 p-xxl-5 d-flex flex-column gap-8">
-                      <div class="d-flex flex-column gap-6">
-                        <div class="hstack gap-3">
-                          <h5 class="mb-0 fw-medium">Scale</h5>
-                          <span class="badge text-bg-dark hstack gap-2"
-                            ><iconify-icon
-                              icon="lucide:flame"
-                              class="fs-5"
-                            ></iconify-icon
-                            >Most popular</span
-                          >
-                        </div>
-                        <div class="hstack gap-2">
-                          <h3 class="mb-0 text-opacity-50 text-dark">
-                            <del></del>
-                          </h3>
-                          <h3 class="mb-0">₹ 6,999/</h3>
-                          <!-- <p class="mb-0">/month</p> -->
-                        </div>
-                        <p class="mb-0">
-                          Perfect for growing brands needing more customization
-                          and flexibility.
-                        </p>
-                      </div>
-                      <div class="pt-8 border-top d-flex flex-column gap-6">
-                        <h6 class="mb-0 fw-normal">What’s Included:</h6>
-                        <ul class="list-unstyled d-flex flex-column gap-3 mb-0">
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Up to 6 Pages website
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Responsive Design (Desktop + Mobile + Tablet)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Dynamic CMS (WordPress / PHP)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              WhatsApp Chat Integration
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Google Map & Contact Form
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Basic SEO Setup (Meta Tags + Sitemap)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Free Hosting (1 Year)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              SSL Certificate (Free)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Admin Access (for updates & edits)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Delivery Time: 5–7 Days
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Support: 1 Month Free Maintenance
-                            </h6>
-                          </li>
-                        </ul>
-                      </div>
-                      <a href="" class="btn w-100 justify-content-center">
-                        <span class="btn-text">Subscribe now</span>
-                        <iconify-icon
-                          icon="lucide:arrow-up-right"
-                          class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"
-                        ></iconify-icon>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-lg-6 col-xl-4 mb-7 mb-xl-0 d-flex align-items-stretch"
-                >
-                  <div
-                    class="card w-100"
-                    data-aos="fade-up"
-                    data-aos-delay="300"
-                    data-aos-duration="1000"
-                  >
-                    <div class="card-body p-7 p-xxl-5 d-flex flex-column gap-8">
-                      <div class="d-flex flex-column gap-6">
-                        <h5 class="mb-0 fw-medium">Elevate</h5>
-                        <div class="hstack gap-2">
-                          <h3 class="mb-0">₹ 15,999/</h3>
-                          <!-- <p class="mb-0">/month</p> -->
-                        </div>
-                        <p class="mb-0">
-                          Best suited for established businesses wanting a fully
-                          tailored experience.
-                        </p>
-                      </div>
-                      <div class="pt-8 border-top d-flex flex-column gap-6">
-                        <h6 class="mb-0 fw-normal">What’s Included:</h6>
-                        <ul class="list-unstyled d-flex flex-column gap-3 mb-0">
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Up to 12–15 Pages (Dynamic Website)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Custom UI/UX Design (Unique Look & Feel)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Admin Dashboard (Full Control)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Blog / News / Portfolio Section
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Payment Gateway Integration (if needed)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Domain + Hosting (1 Year Free)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Google Analytics & SEO Setup
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              WhatsApp, Email & Call Button Integration
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Security Setup + Daily Backup
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">3 Business Email IDs</h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              SSL + Speed Optimization
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Delivery Time: 10–15 Days
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Support: 1 Year Free Maintenance
-                            </h6>
-                          </li>
-                        </ul>
-                      </div>
-                      <a href="" class="btn w-100 justify-content-center">
-                        <span class="btn-text">Subscribe now</span>
-                        <iconify-icon
-                          icon="lucide:arrow-up-right"
-                          class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"
-                        ></iconify-icon>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="d-flex flex-column gap-5 gap-xl-11">
-              <div class="row gap-7 gap-xl-0">
-                <div class="col-xl-4 col-xxl-4">
-                  <div
-                    class="d-flex align-items-center gap-7 py-2"
-                    data-aos="fade-right"
-                    data-aos-delay="100"
-                    data-aos-duration="1000"
-                  >
-                    <span
-                      class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium"
-                      >07.2</span
-                    >
-                    <hr class="border-line bg-white" />
-                    <span class="badge text-bg-dark">Pricing</span>
-                  </div>
-                </div>
-                <div class="col-xl-8 col-xxl-7">
-                  <div class="row">
-                    <div class="col-xxl-8">
-                      <div
-                        class="d-flex flex-column gap-6"
-                        data-aos="fade-up"
-                        data-aos-delay="100"
-                        data-aos-duration="1000"
-                      >
-                        <h2 class="mb-0">
-                          Affordable pricing of Digital Marketing
-                        </h2>
-                        <p class="fs-5 mb-0 text-opacity-70">
-                          Grow your business with cost-effective digital marketing solutions designed to increase visibility, generate leads, and maximize your return on investment.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div
-                  class="col-lg-6 col-xl-4 mb-7 mb-xl-0 d-flex align-items-stretch"
-                >
-                  <div
-                    class="card w-100"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                    data-aos-duration="1000"
-                  >
-                    <div class="card-body p-7 p-xxl-5 d-flex flex-column gap-8">
-                      <div class="d-flex flex-column gap-6">
-                        <h5 class="mb-0 fw-medium">Launch</h5>
-                        <div class="hstack gap-2">
-                          <h3 class="mb-0">₹ 3,999/</h3>
-                          <p class="mb-0">/month</p>
-                        </div>
-                        <p class="mb-0">
-                          Ideal for startups and small businesses taking their
-                          first steps online.
-                        </p>
-                      </div>
-                      <div class="pt-8 border-top d-flex flex-column gap-6">
-                        <h6 class="mb-0 fw-normal">What’s Included:</h6>
-                        <ul class="list-unstyled d-flex flex-column gap-3 mb-0">
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              15 Custom Social Media Posts / month
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Facebook + Instagram + Google My Business Handling
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Paid Ad Setup (Facebook or Instagram)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Caption Writing + Hashtag Strategy
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Google Reviews Boost (Organic)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              2 Ad Campaigns / month (Graphics + Copywriting)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Monthly Insights Report
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              WhatsApp Support + Client Call 2 times/month
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Bonus: Free Poster Design Templates (3 pcs/month)
-                            </h6>
-                          </li>
-                        </ul>
-                      </div>
-                      <a href="" class="btn w-100 justify-content-center">
-                        <span class="btn-text">Subscribe now</span>
-                        <iconify-icon
-                          icon="lucide:arrow-up-right"
-                          class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"
-                        ></iconify-icon>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-lg-6 col-xl-4 mb-7 mb-xl-0 d-flex align-items-stretch"
-                >
-                  <div
-                    class="card w-100"
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                    data-aos-duration="1000"
-                  >
-                    <div class="card-body p-7 p-xxl-5 d-flex flex-column gap-8">
-                      <div class="d-flex flex-column gap-6">
-                        <div class="hstack gap-3">
-                          <h5 class="mb-0 fw-medium">Scale</h5>
-                          <span class="badge text-bg-dark hstack gap-2"
-                            ><iconify-icon
-                              icon="lucide:flame"
-                              class="fs-5"
-                            ></iconify-icon
-                            >Most popular</span
-                          >
-                        </div>
-                        <div class="hstack gap-2">
-                          <h3 class="mb-0 text-opacity-50 text-dark">
-                            <del></del>
-                          </h3>
-                          <h3 class="mb-0">₹ 7,999/</h3>
-                          <p class="mb-0">/month</p>
-                        </div>
-                        <p class="mb-0">
-                          Perfect for growing brands needing more customization
-                          and flexibility.
-                        </p>
-                      </div>
-                      <div class="pt-8 border-top d-flex flex-column gap-6">
-                        <h6 class="mb-0 fw-normal">What’s Included:</h6>
-                        <ul class="list-unstyled d-flex flex-column gap-3 mb-0">
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              15 Custom Social Media Posts / month
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Facebook + Instagram + Google My Business Handling
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Paid Ad Setup (Facebook or Instagram)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Caption Writing + Hashtag Strategy
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Google Reviews Boost (Organic)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              2 Ad Campaigns / month (Graphics + Copywriting)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Monthly Insights Report
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              WhatsApp Support + Client Call 2 times/month
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Bonus: Free Poster Design Templates (3 pcs/month)
-                            </h6>
-                          </li>
-                        </ul>
-                      </div>
-                      <a href="" class="btn w-100 justify-content-center">
-                        <span class="btn-text">Subscribe now</span>
-                        <iconify-icon
-                          icon="lucide:arrow-up-right"
-                          class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"
-                        ></iconify-icon>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-lg-6 col-xl-4 mb-7 mb-xl-0 d-flex align-items-stretch"
-                >
-                  <div
-                    class="card w-100"
-                    data-aos="fade-up"
-                    data-aos-delay="300"
-                    data-aos-duration="1000"
-                  >
-                    <div class="card-body p-7 p-xxl-5 d-flex flex-column gap-8">
-                      <div class="d-flex flex-column gap-6">
-                        <h5 class="mb-0 fw-medium">Elevate</h5>
-                        <div class="hstack gap-2">
-                          <h3 class="mb-0">₹ 14,999/</h3>
-                          <p class="mb-0">/month</p>
-                        </div>
-                        <p class="mb-0">
-                          Best suited for established businesses wanting a fully
-                          tailored experience.
-                        </p>
-                      </div>
-                      <div class="pt-8 border-top d-flex flex-column gap-6">
-                        <h6 class="mb-0 fw-normal">What’s Included:</h6>
-                        <ul class="list-unstyled d-flex flex-column gap-3 mb-0">
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              30 Custom Social Media Posts / month
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Facebook + Instagram + Google My Business +
-                              LinkedIn
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Complete Ad Management (Facebook + Instagram +
-                              Google Ads)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              SEO Optimization (On-page + Keyword Setup)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Blog / Article Posting (2/month)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Video Reels / Motion Graphics (4/month)
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Lead Generation Form Integration
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Competitor & Analytics Report
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Dedicated Marketing Manager
-                            </h6>
-                          </li>
-                          <li class="hstack gap-3">
-                            <span
-                              class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                              ><iconify-icon
-                                icon="lucide:check"
-                                class="fs-6 text-dark"
-                              ></iconify-icon
-                            ></span>
-                            <h6 class="mb-0 fw-normal">
-                              Bonus: Free Website Audit + Strategy Report
-                            </h6>
-                          </li>
-                        </ul>
-                      </div>
-                      <a href="" class="btn w-100 justify-content-center">
-                        <span class="btn-text">Subscribe now</span>
-                        <iconify-icon
-                          icon="lucide:arrow-up-right"
-                          class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"
-                        ></iconify-icon>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Pricing for android development -->
-              <div class="d-flex flex-column gap-5 gap-xl-11">
-                    <div class="row gap-7 gap-xl-0">
-                      <div class="col-xl-4 col-xxl-4">
-                        <div
-                          class="d-flex align-items-center gap-7 py-2"
-                          data-aos="fade-right"
-                          data-aos-delay="100"
-                          data-aos-duration="1000"
-                        >
-                          <span
-                            class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium"
-                            >07.3</span
-                          >
-                          <hr class="border-line bg-white" />
-                          <span class="badge text-bg-dark">Pricing</span>
-                        </div>
-                      </div>
-                      <div class="col-xl-8 col-xxl-7">
-                        <div class="row">
-                          <div class="col-xxl-8">
-                            <div
-                              class="d-flex flex-column gap-6"
-                              data-aos="fade-up"
-                              data-aos-delay="100"
-                              data-aos-duration="1000"
-                            >
-                              <h2 class="mb-0">
-                                Affordable pricing of Android Development
-                              </h2>
-                              <p class="fs-5 mb-0 text-opacity-70">
-                                Get high-performance Android app development services at affordable rates, tailored to deliver seamless user experiences and business growth
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div
-                        class="col-lg-6 col-xl-4 mb-7 mb-xl-0 d-flex align-items-stretch"
-                      >
-                        <div
-                          class="card w-100"
-                          data-aos="fade-up"
-                          data-aos-delay="100"
-                          data-aos-duration="1000"
-                        >
-                          <div
-                            class="card-body p-7 p-xxl-5 d-flex flex-column gap-8"
-                          >
-                            <div class="d-flex flex-column gap-6">
-                              <h5 class="mb-0 fw-medium">Launch</h5>
-                              <div class="hstack gap-2">
-                                <h3 class="mb-0">₹ 6,999/</h3>
-                                <!-- <p class="mb-0">/month</p> -->
-                              </div>
-                              <p class="mb-0">
-                                Ideal for startups and small businesses taking
-                                their first steps online.
-                              </p>
-                            </div>
-                            <div
-                              class="pt-8 border-top d-flex flex-column gap-6"
-                            >
-                              <h6 class="mb-0 fw-normal">What’s Included:</h6>
-                              <ul
-                                class="list-unstyled d-flex flex-column gap-3 mb-0"
-                              >
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    3–5 Screens (Home, About, Services, Contact)
-                                  </h6>
-                                </li>
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    Beautiful UI (Flutter / Android Studio)
-                                  </h6>
-                                </li>
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    WhatsApp & Call Button Integration
-                                  </h6>
-                                </li>
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    App Icon + Splash Screen
-                                  </h6>
-                                </li>
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    Contact Form (Email based)
-                                  </h6>
-                                </li>
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    APK File Delivery
-                                  </h6>
-                                </li>
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    Play Store Upload Support (₹499 extra)
-                                  </h6>
-                                </li>
-                              </ul>
-                            </div>
-                            <a href="" class="btn w-100 justify-content-center">
-                              <span class="btn-text">Subscribe now</span>
-                              <iconify-icon
-                                icon="lucide:arrow-up-right"
-                                class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"
-                              ></iconify-icon>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="col-lg-6 col-xl-4 mb-7 mb-xl-0 d-flex align-items-stretch"
-                      >
-                        <div
-                          class="card w-100"
-                          data-aos="fade-up"
-                          data-aos-delay="200"
-                          data-aos-duration="1000"
-                        >
-                          <div
-                            class="card-body p-7 p-xxl-5 d-flex flex-column gap-8"
-                          >
-                            <div class="d-flex flex-column gap-6">
-                              <div class="hstack gap-3">
-                                <h5 class="mb-0 fw-medium">Scale</h5>
-                                <span class="badge text-bg-dark hstack gap-2"
-                                  ><iconify-icon
-                                    icon="lucide:flame"
-                                    class="fs-5"
-                                  ></iconify-icon
-                                  >Most popular</span
-                                >
-                              </div>
-                              <div class="hstack gap-2">
-                                <h3 class="mb-0 text-opacity-50 text-dark">
-                                  <del></del>
-                                </h3>
-                                <h3 class="mb-0">₹ 14,999/</h3>
-                                <!-- <p class="mb-0">/month</p> -->
-                              </div>
-                              <p class="mb-0">
-                                Perfect for growing brands needing more
-                                customization and flexibility.
-                              </p>
-                            </div>
-                            <div
-                              class="pt-8 border-top d-flex flex-column gap-6"
-                            >
-                              <h6 class="mb-0 fw-normal">What’s Included:</h6>
-                              <ul
-                                class="list-unstyled d-flex flex-column gap-3 mb-0"
-                              >
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    6–8 Screens (Home, About, Gallery, Services,
-                                    Contact, etc.)
-                                  </h6>
-                                </li>
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    Dynamic Data Update via Firebase / Google
-                                    Sheet
-                                  </h6>
-                                </li>
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    Login/Signup (Optional)
-                                  </h6>
-                                </li>
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    Push Notifications (1-time setup)
-                                  </h6>
-                                </li>
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    Social Media & Map Integration
-                                  </h6>
-                                </li>
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    Play Store Upload Included
-                                  </h6>
-                                </li>
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    Free Hosting (API or Data) – 1 Year
-                                  </h6>
-                                </li>
-                              </ul>
-                            </div>
-                            <a href="" class="btn w-100 justify-content-center">
-                              <span class="btn-text">Subscribe now</span>
-                              <iconify-icon
-                                icon="lucide:arrow-up-right"
-                                class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"
-                              ></iconify-icon>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="col-lg-6 col-xl-4 mb-7 mb-xl-0 d-flex align-items-stretch"
-                      >
-                        <div
-                          class="card w-100"
-                          data-aos="fade-up"
-                          data-aos-delay="300"
-                          data-aos-duration="1000"
-                        >
-                          <div
-                            class="card-body p-7 p-xxl-5 d-flex flex-column gap-8"
-                          >
-                            <div class="d-flex flex-column gap-6">
-                              <h5 class="mb-0 fw-medium">Elevate</h5>
-                              <div class="hstack gap-2">
-                                <h3 class="mb-0">₹ 25,999/</h3>
-                                <!-- <p class="mb-0">/month</p> -->
-                              </div>
-                              <p class="mb-0">
-                                Best suited for established businesses wanting a
-                                fully tailored experience.
-                              </p>
-                            </div>
-                            <div
-                              class="pt-8 border-top d-flex flex-column gap-6"
-                            >
-                              <h6 class="mb-0 fw-normal">What’s Included:</h6>
-                              <ul
-                                class="list-unstyled d-flex flex-column gap-3 mb-0"
-                              >
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    Custom UI/UX Design
-                                  </h6>
-                                </li>
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    Admin Dashboard (PHP / Firebase)
-                                  </h6>
-                                </li>
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    Product Listing / Course Listing / Booking
-                                    System
-                                  </h6>
-                                </li>
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    Payment Gateway Integration
-                                  </h6>
-                                </li>
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    Push Notification + Analytics
-                                  </h6>
-                                </li>
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    Login / Signup (OTP / Email)
-                                  </h6>
-                                </li>
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    Hosting + SSL (1 Year Free)
-                                  </h6>
-                                </li>
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    Play Store Upload + App Testing
-                                  </h6>
-                                </li>
-                                <li class="hstack gap-3">
-                                  <span
-                                    class="round-32 rounded-circle bg-primary flex-shrink-0 hstack justify-content-center"
-                                    ><iconify-icon
-                                      icon="lucide:check"
-                                      class="fs-6 text-dark"
-                                    ></iconify-icon
-                                  ></span>
-                                  <h6 class="mb-0 fw-normal">
-                                    1 Year Free Maintenance
-                                  </h6>
-                                </li>
-                              </ul>
-                            </div>
-                            <a href="" class="btn w-100 justify-content-center">
-                              <span class="btn-text">Subscribe now</span>
-                              <iconify-icon
-                                icon="lucide:arrow-up-right"
-                                class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"
-                              ></iconify-icon>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-            <!--  Partners Section -->
-            <div
-              class="d-flex flex-column gap-8"
-              data-aos="fade-up"
-              data-aos-delay="100"
-              data-aos-duration="1000"
-            >
-              <p class="fs-5 mb-0 text-center text-dark">
-                More than 320 trusted partners & clients
-              </p>
-              <div
-                class="marquee w-100 d-flex align-items-center overflow-hidden"
-              >
-                <div class="marquee-content d-flex align-items-center gap-8">
-                  <div class="marquee-tag hstack justify-content-center">
-                    <img
-                      src="{{ asset('assets/images/pricing/partners-1.svg') }}"
-                      alt="partners"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="marquee-tag hstack justify-content-center">
-                    <img
-                      src="{{ asset('assets/images/pricing/partners-2.svg') }}"
-                      alt="partners"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="marquee-tag hstack justify-content-center">
-                    <img
-                      src="{{ asset('assets/images/pricing/partners-3.svg') }}"
-                      alt="partners"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="marquee-tag hstack justify-content-center">
-                    <img
-                      src="{{ asset('assets/images/pricing/partners-4.svg') }}"
-                      alt="partners"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="marquee-tag hstack justify-content-center">
-                    <img
-                      src="{{ asset('assets/images/pricing/partners-5.svg') }}"
-                      alt="partners"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="marquee-tag hstack justify-content-center">
-                    <img
-                      src="{{ asset('assets/images/pricing/partners-1.svg') }}"
-                      alt="partners"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="marquee-tag hstack justify-content-center">
-                    <img
-                      src="{{ asset('assets/images/pricing/partners-2.svg') }}"
-                      alt="partners"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="marquee-tag hstack justify-content-center">
-                    <img
-                      src="{{ asset('assets/images/pricing/partners-3.svg') }}"
-                      alt="partners"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="marquee-tag hstack justify-content-center">
-                    <img
-                      src="{{ asset('assets/images/pricing/partners-4.svg') }}"
-                      alt="partners"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="marquee-tag hstack justify-content-center">
-                    <img
-                      src="{{ asset('assets/images/pricing/partners-5.svg') }}"
-                      alt="partners"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="marquee-tag hstack justify-content-center">
-                    <img
-                      src="{{ asset('assets/images/pricing/partners-1.svg') }}"
-                      alt="partners"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="marquee-tag hstack justify-content-center">
-                    <img
-                      src="{{ asset('assets/images/pricing/partners-2.svg') }}"
-                      alt="partners"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="marquee-tag hstack justify-content-center">
-                    <img
-                      src="{{ asset('assets/images/pricing/partners-3.svg') }}"
-                      alt="partners"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="marquee-tag hstack justify-content-center">
-                    <img
-                      src="{{ asset('assets/images/pricing/partners-4.svg') }}"
-                      alt="partners"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="marquee-tag hstack justify-content-center">
-                    <img
-                      src="{{ asset('assets/images/pricing/partners-5.svg') }}"
-                      alt="partners"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="marquee-tag hstack justify-content-center">
-                    <img
-                      src="{{ asset('assets/images/pricing/partners-1.svg') }}"
-                      alt="partners"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="marquee-tag hstack justify-content-center">
-                    <img
-                      src="{{ asset('assets/images/pricing/partners-2.svg') }}"
-                      alt="partners"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="marquee-tag hstack justify-content-center">
-                    <img
-                      src="{{ asset('assets/images/pricing/partners-3.svg') }}"
-                      alt="partners"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="marquee-tag hstack justify-content-center">
-                    <img
-                      src="{{ asset('assets/images/pricing/partners-4.svg') }}"
-                      alt="partners"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="marquee-tag hstack justify-content-center">
-                    <img
-                      src="{{ asset('assets/images/pricing/partners-5.svg') }}"
-                      alt="partners"
-                      class="img-fluid"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+  <div class="pricing-tabs-wrapper">
+    <div class="pricing-tabs-container">
+        <a href="/pricing/web-development" class="pricing-tab-btn active">
+            Affordable pricing of Web Development
+        </a>
+        <a href="/pricing/digital-marketing" class="pricing-tab-btn">
+            Affordable pricing of Digital Marketing
+        </a>
+        <a href="/pricing/android-development" class="pricing-tab-btn">
+            Affordable pricing of Android Development
+        </a>
+    </div>
+</div>
 
       <!--  FAQ Section -->
       <section class="faq py-5 py-lg-11 py-xl-12">
@@ -3361,6 +1404,60 @@
         </div>
       </section>
 
+      <!-- Start: Instagram Reels Section (VIP Digital Hub Theme) -->
+<section class="vip-reels-section">
+    <div class="vip-reels-container">
+        
+        <!-- Header Text -->
+        <div class="vip-reels-header">
+            <h2>Watch Our Latest Reels</h2>
+            <p>Follow us on Instagram for daily digital marketing tips, strategies & behind-the-scenes content.</p>
+        </div>
+        
+        <!-- Reels Grid Rows -->
+        <div class="vip-reels-grid">
+            
+            <!-- Reel Card 1 (Chalu Video Embed) -->
+            <div class="vip-reel-card">
+                <div class="vip-reel-video-container">
+                    <iframe src="https://www.instagram.com/reel/C76M0LByvAn/embed" 
+                            allowtransparency="true" 
+                            allowfullscreen="true" 
+                            scrolling="no" 
+                            frameborder="0">
+                    </iframe>
+                </div>
+            </div>
+            
+            <!-- Reel Card 2 (Chalu Video Embed) -->
+            <div class="vip-reel-card">
+                <div class="vip-reel-video-container">
+                    <iframe src="https://www.instagram.com/reel/C8Bv8gty9xG/embed" 
+                            allowtransparency="true" 
+                            allowfullscreen="true" 
+                            scrolling="no" 
+                            frameborder="0">
+                    </iframe>
+                </div>
+            </div>
+            
+            <!-- Reel Card 3 (Chalu Video Embed) -->
+            <div class="vip-reel-card">
+                <div class="vip-reel-video-container">
+                    <iframe src="https://www.instagram.com/reel/C57r893S0pG/embed" 
+                            allowtransparency="true" 
+                            allowfullscreen="true" 
+                            scrolling="no" 
+                            frameborder="0">
+                    </iframe>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!-- End: Instagram Reels Section -->
+
       <!--  Get in touch Section -->
       <section class="get-in-touch py-5 py-lg-11 py-xl-12">
         <div class="container">
@@ -3473,4 +1570,36 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+document.addEventListener("DOMContentLoaded", function () {
+  const blocks = document.querySelectorAll(".service-scroll-block");
+  const dynamicTitle = document.getElementById("dynamicServiceTitle");
+
+  if (!dynamicTitle || blocks.length === 0) return;
+
+  const observerOptions = {
+    root: null,
+    rootMargin: "-20% 0px -60% 0px", // Screen ke center area me aate hi trigger hoga
+    threshold: 0
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const newTitle = entry.target.getAttribute("data-service-title");
+        
+        if (dynamicTitle.textContent.trim() !== newTitle) {
+          // Smooth fade transition effect
+          dynamicTitle.classList.add("title-fade-out");
+          
+          setTimeout(() => {
+            dynamicTitle.textContent = newTitle;
+            dynamicTitle.classList.remove("title-fade-out");
+          }, 300);
+        }
+      }
+    });
+  }, observerOptions);
+
+  blocks.forEach((block) => observer.observe(block));
+});
 </script>
