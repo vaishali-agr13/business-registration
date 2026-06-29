@@ -1104,190 +1104,100 @@
 </div>
 
       <!--  FAQ Section -->
-      <section class="faq py-5 py-lg-11 py-xl-12">
+    <section class="faq py-5 py-lg-11 py-xl-12 custom-faq-section">
         <div class="container">
-          <div class="d-flex flex-column gap-5 gap-xl-11" style="background:white;">
-            <div class="row gap-7 gap-xl-0" style="padding:45px;">
-              <div class="col-xl-4 col-xxl-4">
-                <div
-                  class="d-flex align-items-center gap-7 py-2"
-                  data-aos="fade-right"
-                  data-aos-delay="100"
-                  data-aos-duration="1000"
-                >
-                  <span
-                    class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium"
-                    >08</span
-                  >
-                  <hr class="border-line bg-white" />
-                  <span class="badge text-bg-dark">FAQs</span>
-                </div>
-              </div>
-              <div class="col-xl-8 col-xxl-7">
-                <div class="row">
-                  <div class="col-xxl-9">
-                    <div
-                      class="d-flex flex-column gap-6"
-                      data-aos="fade-up"
-                      data-aos-delay="100"
-                      data-aos-duration="1000"
-                    >
-                      <h2 class="mb-0">Frequently asked questions</h2>
-                      <p class="fs-5 mb-0 text-opacity-70">
-                        Discover how we tailor our solutions to meet unique
-                        needs, delivering impactful strategies, personalized
-                        branding, and exceptional customer experiences.
-                      </p>
-                    </div>
+          <div class="faq-card-wrapper p-4 p-md-5">
+            <div class="row g-4 g-xl-5">
+              
+              <div class="col-lg-4">
+                <div class="faq-sticky-header" data-aos="fade-right" data-aos-duration="1000">
+                  <div class="d-flex align-items-center gap-3 mb-3">
+                    <span class="faq-number-badge">08</span>
+                    <hr class="faq-badge-line" />
+                    <span class="badge custom-faq-badge">FAQs</span>
                   </div>
+                  <h2 class="faq-main-title mb-3">Frequently asked questions</h2>
+                  <p class="faq-desc mb-0">
+                    Discover how we tailor our solutions to meet unique needs, delivering impactful strategies, personalized branding, and exceptional customer experiences.
+                  </p>
                 </div>
               </div>
-            </div>
-            <div class="row justify-content-end" style="background:white;">
-              <div class="col-xl-8">
-                <div
-                  class="accordion accordion-flush"
-                  id="accordionFlushExample"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                  data-aos-duration="1000"
-                >
-                  <div class="accordion-item">
+              
+              <div class="col-lg-8">
+                <div class="accordion custom-modern-accordion" id="accordionFlushExample" data-aos="fade-up" data-aos-duration="1000">
+                  
+                  <div class="accordion-item mb-3">
                     <h2 class="accordion-header">
-                      <button
-                        class="accordion-button collapsed fs-8 fw-bold"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseOne"
-                        aria-expanded="false"
-                        aria-controls="flush-collapseOne"
-                      >
+                      <button class="accordion-button collapsed py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                         What services does your agency offer?
                       </button>
                     </h2>
-                    <div
-                      id="flush-collapseOne"
-                      class="accordion-collapse collapse"
-                      data-bs-parent="#accordionFlushExample"
-                    >
-                      <div class="accordion-body pt-0 fs-5 text-dark">
-                        Yes, we provide post-launch support to ensure smooth
-                        implementation and offer ongoing maintenance packages
-                        for clients needing regular updates or technical
-                        assistance.
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body pb-4 pt-0">
+                        Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item">
+
+                  <div class="accordion-item mb-3">
                     <h2 class="accordion-header">
-                      <button
-                        class="accordion-button collapsed fs-8 fw-bold"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseTwo"
-                        aria-expanded="false"
-                        aria-controls="flush-collapseTwo"
-                      >
+                      <button class="accordion-button collapsed py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                         How long does a typical project take?
                       </button>
                     </h2>
-                    <div
-                      id="flush-collapseTwo"
-                      class="accordion-collapse collapse"
-                      data-bs-parent="#accordionFlushExample"
-                    >
-                      <div class="accordion-body pt-0 fs-5 text-dark">
-                        Yes, we provide post-launch support to ensure smooth
-                        implementation and offer ongoing maintenance packages
-                        for clients needing regular updates or technical
-                        assistance.
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body pb-4 pt-0">
+                        Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item">
+
+                  <div class="accordion-item mb-3">
                     <h2 class="accordion-header">
-                      <button
-                        class="accordion-button collapsed fs-8 fw-bold"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseThree"
-                        aria-expanded="false"
-                        aria-controls="flush-collapseThree"
-                      >
+                      <button class="accordion-button collapsed py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                         Do you offer custom designs, or do you use templates?
                       </button>
                     </h2>
-                    <div
-                      id="flush-collapseThree"
-                      class="accordion-collapse collapse"
-                      data-bs-parent="#accordionFlushExample"
-                    >
-                      <div class="accordion-body pt-0 fs-5 text-dark">
-                        Yes, we provide post-launch support to ensure smooth
-                        implementation and offer ongoing maintenance packages
-                        for clients needing regular updates or technical
-                        assistance.
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body pb-4 pt-0">
+                        Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item">
+
+                  <div class="accordion-item mb-3">
                     <h2 class="accordion-header">
-                      <button
-                        class="accordion-button collapsed fs-8 fw-bold"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseFour"
-                        aria-expanded="false"
-                        aria-controls="flush-collapseFour"
-                      >
+                      <button class="accordion-button collapsed py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                         What’s the cost of a project?
                       </button>
                     </h2>
-                    <div
-                      id="flush-collapseFour"
-                      class="accordion-collapse collapse"
-                      data-bs-parent="#accordionFlushExample"
-                    >
-                      <div class="accordion-body pt-0 fs-5 text-dark">
-                        Yes, we provide post-launch support to ensure smooth
-                        implementation and offer ongoing maintenance packages
-                        for clients needing regular updates or technical
-                        assistance.
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body pb-4 pt-0">
+                        Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item border-bottom">
+
+                  <div class="accordion-item">
                     <h2 class="accordion-header">
-                      <button
-                        class="accordion-button collapsed fs-8 fw-bold"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseFive"
-                        aria-expanded="false"
-                        aria-controls="flush-collapseFive"
-                      >
+                      <button class="accordion-button collapsed py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
                         Do you provide ongoing support after project completion?
                       </button>
                     </h2>
-                    <div
-                      id="flush-collapseFive"
-                      class="accordion-collapse collapse"
-                      data-bs-parent="#accordionFlushExample"
-                    >
-                      <div class="accordion-body pt-0 fs-5 text-dark">
-                        Yes, we provide post-launch support to ensure smooth
-                        implementation and offer ongoing maintenance packages
-                        for clients needing regular updates or technical
-                        assistance.
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body pb-4 pt-0">
+                        Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.
                       </div>
                     </div>
                   </div>
+
                 </div>
               </div>
+
             </div>
           </div>
         </div>
-      </section>
+    </section>
 
       <!--  Recent news Section -->
       <section class="Recent-news bg-light-gray py-5 py-lg-11 py-xl-12">

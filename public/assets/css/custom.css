@@ -608,3 +608,116 @@ gap: 120px !important; /* Har block ke bich me sufficient distance */
     }
 }
 
+
+
+/* --- Re-designed FAQ Layout Styles --- */
+
+.custom-faq-section {
+    background-color: #fdf5ea !important; /* Soft premium cream color matching your theme */
+}
+
+.faq-card-wrapper {
+    background: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 10px 40px rgba(82, 28, 13, 0.04);
+}
+
+/* Left Side Header Styling */
+.faq-sticky-header {
+    position: sticky;
+    top: 120px;
+}
+
+.faq-number-badge {
+    width: 36px;
+    height: 36px;
+    background-color: #FF9B45; /* Your Primary Orange */
+    color: #521C0D; /* Your Dark Brown */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.faq-badge-line {
+    width: 40px;
+    border-top: 2px solid rgba(82, 28, 13, 0.2) !important;
+    margin: 0;
+    opacity: 1;
+}
+
+.custom-faq-badge {
+    background-color: #521C0D !important;
+    color: #ffffff !important;
+    padding: 6px 14px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+.faq-main-title {
+    color: #521C0D;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 1.2;
+}
+
+.faq-desc {
+    color: rgba(82, 28, 13, 0.7);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Right Side Modern Accordion Styling */
+.custom-modern-accordion .accordion-item {
+    background-color: #ffffff;
+    border: 1px solid rgba(82, 28, 13, 0.08) !important;
+    border-radius: 14px !important;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+/* Card Hover effect */
+.custom-modern-accordion .accordion-item:hover {
+    border-color: rgba(255, 155, 69, 0.3) !important;
+    box-shadow: 0 4px 15px rgba(82, 28, 13, 0.03);
+}
+
+.custom-modern-accordion .accordion-button {
+    font-size: 16px;
+    font-weight: 600;
+    color: #521C0D;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    padding-left: 24px;
+    padding-right: 24px;
+    transition: color 0.3s ease;
+}
+
+/* Active State Styles */
+.custom-modern-accordion .accordion-item:has(.accordion-button:not(.collapsed)) {
+    border-color: #FF9B45 !important; /* Changes border to orange when active */
+    background-color: rgba(254, 245, 237, 0.4);
+}
+
+.custom-modern-accordion .accordion-button:not(.collapsed) {
+    color: #FF9B45; /* Orange text on Active */
+}
+
+/* Body Text inside Accordion */
+.custom-modern-accordion .accordion-body {
+    color: rgba(82, 28, 13, 0.8);
+    font-size: 14px;
+    line-height: 1.6;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+/* Custom Smooth Transition for Icon */
+.custom-modern-accordion .accordion-button::after {
+    background-size: 14px;
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}

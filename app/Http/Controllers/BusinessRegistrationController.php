@@ -203,7 +203,10 @@ class BusinessRegistrationController extends Controller
                 ->cc('info@vipdigitalhub.com')
                 ->send(new FormSubmittedMail($data));
                 session()->forget(['step1', 'registration_id']);
-                return redirect()->route('thank.you', ['id' => $data->id]);       
+                //return redirect()->route('thank.you', ['id' => $data->id]);       
+
+                
+                return redirect()->route('easebuzz.pay');       
         }
         catch (Exception $e) {
             dd($e->getMessage());
